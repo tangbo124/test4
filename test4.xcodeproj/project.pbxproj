@@ -136,6 +136,7 @@
 		28836AA21ADDF3DA009F59CE /* LabelAutoFitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelAutoFitViewController.m; sourceTree = "<group>"; };
 		28836AA51ADDFC4C009F59CE /* ToolBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolBarViewController.h; sourceTree = "<group>"; };
 		28836AA61ADDFC4C009F59CE /* ToolBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolBarViewController.m; sourceTree = "<group>"; };
+		28836AA81ADE3F85009F59CE /* test4.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test4.pch; sourceTree = "<group>"; };
 		289020731A8B69F000515E12 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		28B24B031A8DF04000472342 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		28B24B051A8DFC5600472342 /* MyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyImageView.h; sourceTree = "<group>"; };
@@ -397,6 +398,7 @@
 				28E4B1301A6A2E300015D0D8 /* a@2x.png */,
 				28E4B10B1A6A2B400015D0D8 /* Info.plist */,
 				28E4B10C1A6A2B400015D0D8 /* main.m */,
+				28836AA81ADE3F85009F59CE /* test4.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -728,6 +730,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/test4",
 				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/test4/test4.pch";
 				INFOPLIST_FILE = test4/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -767,6 +771,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/test4",
 				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/test4/test4.pch";
 				INFOPLIST_FILE = test4/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
