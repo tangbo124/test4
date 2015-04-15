@@ -60,7 +60,6 @@ static NSString * const identifier = @"cell";
     _lastOffsetY = offsetY;
     if (resu) {
         NSLog(@"隐藏");
-        NSLog(@"测试github");
         if (_toolBar.frame.origin.y == self.view.bounds.size.height) {
             return;
         }
