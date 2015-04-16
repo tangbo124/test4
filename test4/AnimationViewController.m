@@ -93,7 +93,8 @@
     animation.values = @[@0, @100, @200, @0];
     animation.keyTimes = @[@0, @(0.1), @(0.8), @1];
     animation.duration = 1;
-    
+    //additive=YES表示当前view的动画位置偏移是相对于当前view的frame
+    //cumulative=YES表示当前动画会从动画的结束位置重新开始动画
     animation.additive = YES;
     
     [_imageView.layer addAnimation:animation forKey:@"shake"];
@@ -107,6 +108,7 @@
     orbit.keyPath = @"position";
     orbit.path = CFAutorelease(CGPathCreateWithRect(boundingRect, NULL));
     orbit.duration = 4;
+    
     orbit.additive = YES;
     orbit.repeatCount = HUGE_VALF;
     orbit.calculationMode = kCAAnimationPaced;
