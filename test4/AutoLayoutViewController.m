@@ -39,13 +39,17 @@
     
     NSArray *constraint2 = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-20-[view1(100)]-8-[view2(200)]" options:0 metrics:nil views:NSDictionaryOfVariableBindings(view1, view2)];
     
-    NSArray *constranint3 = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-[view2(100)]" options:0 metrics:nil views:NSDictionaryOfVariableBindings(view2)];
+    NSArray *constranint3 = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-20-[view2(100)]" options:0 metrics:nil views:NSDictionaryOfVariableBindings(view2)];
     [self.view addConstraints:constranint1];
     [self.view addConstraints:constraint2];
     [self.view addConstraints:constranint3];
 //    [NSLayoutConstraint activateConstraints:constranint1];
 //    [NSLayoutConstraint activateConstraints:constraint2];
 //    [NSLayoutConstraint activateConstraints:constranint3];
+    
+    [view2 layoutIfNeeded];//可以得到view2的frame
+    
+    NSLog(@"frame : %@", NSStringFromCGRect(view2.frame));
 }
 
 - (void)addBtn
@@ -66,6 +70,9 @@
 
 - (void)btnClick:(id)sender
 {
+    
+    NSLog(@"frame : %@", NSStringFromCGRect(view2.frame));
+    
     NSArray *constranints = [view2 constraintsAffectingLayoutForAxis:UILayoutConstraintAxisHorizontal];
     
     [constranints enumerateObjectsUsingBlock:^(NSLayoutConstraint *con, NSUInteger idx, BOOL *stop) {
