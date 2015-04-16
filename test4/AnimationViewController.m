@@ -93,7 +93,9 @@
     animation.values = @[@0, @100, @200, @0];
     animation.keyTimes = @[@0, @(0.1), @(0.8), @1];
     animation.duration = 1;
-    //additive=YES表示当前view的动画位置偏移是相对于当前view的frame
+    /*additive=YES表示_imageView的动画位置偏移是相对于当前_imageView的frame,
+     例如上面的animation.values = @[@0, @100, @200, @0], 表示_imageView开始动画时的偏移是100,也就是说_imageView的位置是_imageView.frame.origin.x+100, 而不是使_imageView.frame.origin.x=100
+     */
     //cumulative=YES表示当前动画会从动画的结束位置重新开始动画
     animation.additive = YES;
     
