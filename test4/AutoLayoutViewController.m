@@ -26,10 +26,13 @@
 - (void)testAutoLayout
 {
     view1 = [[UIView alloc] init];
+    /*
+     *view1.translatesAutoresizingMaskIntoConstraints = NO必须位于init函数之后,否则会报错
+     */
     view1.translatesAutoresizingMaskIntoConstraints = NO;
     view1.backgroundColor = [UIColor redColor];
     [self.view addSubview:view1];
-    
+
     view2 = [[UIView alloc] init];
     view2.translatesAutoresizingMaskIntoConstraints = NO;
     view2.backgroundColor = [UIColor greenColor];

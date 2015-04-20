@@ -25,6 +25,7 @@
 #import "MyTableViewViewController.h"
 #import "LabelAutoFitViewController.h"
 #import "ToolBarViewController.h"
+#import "AWTViewController.h"
 
 @interface AppDelegate ()
 
@@ -52,7 +53,8 @@
 //    MasonryViewController *vc = [[MasonryViewController alloc] init];
 //    MyTableViewViewController *vc = [[MyTableViewViewController alloc] init];
 //    LabelAutoFitViewController *vc = [[LabelAutoFitViewController alloc] init];
-    ToolBarViewController *vc = [[ToolBarViewController alloc] init];
+//    ToolBarViewController *vc = [[ToolBarViewController alloc] init];
+    AWTViewController *vc = [[AWTViewController alloc] init];
     self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
     return YES;
