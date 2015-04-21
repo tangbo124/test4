@@ -26,6 +26,7 @@
 #import "LabelAutoFitViewController.h"
 #import "ToolBarViewController.h"
 #import "AWTViewController.h"
+#import "RootTransitionViewController.h"
 
 @interface AppDelegate ()
 
@@ -54,7 +55,8 @@
 //    MyTableViewViewController *vc = [[MyTableViewViewController alloc] init];
 //    LabelAutoFitViewController *vc = [[LabelAutoFitViewController alloc] init];
 //    ToolBarViewController *vc = [[ToolBarViewController alloc] init];
-    AWTViewController *vc = [[AWTViewController alloc] init];
+//    AWTViewController *vc = [[AWTViewController alloc] init];
+    RootTransitionViewController *vc = [[RootTransitionViewController alloc] init];
     self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
     return YES;

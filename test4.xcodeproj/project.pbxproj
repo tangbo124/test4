@@ -27,6 +27,9 @@
 		283745E61A7B265100C1522A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 283745E51A7B265100C1522A /* FirstViewController.m */; };
 		284EA35A1AE4891400E4750F /* AWTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 284EA3591AE4891400E4750F /* AWTViewController.m */; };
 		284EA35D1AE48F2200E4750F /* AWTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 284EA35C1AE48F2200E4750F /* AWTTableViewCell.m */; };
+		284EA3641AE4D74000E4750F /* RootTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 284EA3631AE4D74000E4750F /* RootTransitionViewController.m */; };
+		284EA3671AE4D74D00E4750F /* SecondTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 284EA3661AE4D74D00E4750F /* SecondTransitionViewController.m */; };
+		284EA36A1AE4DA5600E4750F /* RotationPresentAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 284EA3691AE4DA5600E4750F /* RotationPresentAnimation.m */; };
 		285D12941A77343D005F1A60 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 285D12921A77343D005F1A60 /* 1.png */; };
 		285D12951A77343D005F1A60 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 285D12931A77343D005F1A60 /* 2.png */; };
 		285D12971A7756FD005F1A60 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 285D12961A7756FD005F1A60 /* 4.png */; };
@@ -114,6 +117,12 @@
 		284EA3591AE4891400E4750F /* AWTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWTViewController.m; sourceTree = "<group>"; };
 		284EA35B1AE48F2200E4750F /* AWTTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWTTableViewCell.h; sourceTree = "<group>"; };
 		284EA35C1AE48F2200E4750F /* AWTTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWTTableViewCell.m; sourceTree = "<group>"; };
+		284EA3621AE4D74000E4750F /* RootTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTransitionViewController.h; sourceTree = "<group>"; };
+		284EA3631AE4D74000E4750F /* RootTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTransitionViewController.m; sourceTree = "<group>"; };
+		284EA3651AE4D74D00E4750F /* SecondTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondTransitionViewController.h; sourceTree = "<group>"; };
+		284EA3661AE4D74D00E4750F /* SecondTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondTransitionViewController.m; sourceTree = "<group>"; };
+		284EA3681AE4DA5600E4750F /* RotationPresentAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotationPresentAnimation.h; sourceTree = "<group>"; };
+		284EA3691AE4DA5600E4750F /* RotationPresentAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotationPresentAnimation.m; sourceTree = "<group>"; };
 		285D12921A77343D005F1A60 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		285D12931A77343D005F1A60 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		285D12961A7756FD005F1A60 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
@@ -278,6 +287,19 @@
 			name = AutoLayoutWithTableView;
 			sourceTree = "<group>";
 		};
+		284EA3611AE4D6F800E4750F /* 自定义转场动画 */ = {
+			isa = PBXGroup;
+			children = (
+				284EA3621AE4D74000E4750F /* RootTransitionViewController.h */,
+				284EA3631AE4D74000E4750F /* RootTransitionViewController.m */,
+				284EA3651AE4D74D00E4750F /* SecondTransitionViewController.h */,
+				284EA3661AE4D74D00E4750F /* SecondTransitionViewController.m */,
+				284EA3681AE4DA5600E4750F /* RotationPresentAnimation.h */,
+				284EA3691AE4DA5600E4750F /* RotationPresentAnimation.m */,
+			);
+			name = "自定义转场动画";
+			sourceTree = "<group>";
+		};
 		286150681AA82C6700E502C8 /* Masonry例子 */ = {
 			isa = PBXGroup;
 			children = (
@@ -360,6 +382,7 @@
 		28E4B1091A6A2B400015D0D8 /* test4 */ = {
 			isa = PBXGroup;
 			children = (
+				284EA3611AE4D6F800E4750F /* 自定义转场动画 */,
 				284EA3571AE488CC00E4750F /* AutoLayoutWithTableView */,
 				28836AA41ADDFC00009F59CE /* 显示和隐藏ToolBar */,
 				28836AA01ADDF3B5009F59CE /* UILabel自适应大小 */,
@@ -606,11 +629,14 @@
 				284EA35D1AE48F2200E4750F /* AWTTableViewCell.m in Sources */,
 				28E4B1131A6A2B400015D0D8 /* ViewController.m in Sources */,
 				2834574E1A8229AC00A05BC8 /* MyView.m in Sources */,
+				284EA36A1AE4DA5600E4750F /* RotationPresentAnimation.m in Sources */,
 				28836AA71ADDFC4C009F59CE /* ToolBarViewController.m in Sources */,
 				28EA23CD1AA58E4000FBC8DB /* AutoLayoutViewController.m in Sources */,
 				28E4B1101A6A2B400015D0D8 /* AppDelegate.m in Sources */,
 				283457521A830C7400A05BC8 /* CircleView.m in Sources */,
 				2834573D1A80DD7D00A05BC8 /* ShowFilterImageViewController.m in Sources */,
+				284EA3671AE4D74D00E4750F /* SecondTransitionViewController.m in Sources */,
+				284EA3641AE4D74000E4750F /* RootTransitionViewController.m in Sources */,
 				2834572E1A80811100A05BC8 /* MyTextView.m in Sources */,
 				283457591A85C0C800A05BC8 /* TestNetWorkViewController.m in Sources */,
 				280EF6E81A7889BE00EEA19A /* TestTableViewViewController.m in Sources */,
