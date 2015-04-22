@@ -59,8 +59,8 @@
 //    ToolBarViewController *vc = [[ToolBarViewController alloc] init];
 //    AWTViewController *vc = [[AWTViewController alloc] init];
 //    RootTransitionViewController *vc = [[RootTransitionViewController alloc] init];
-//    RunTimeViewController *vc = [[RunTimeViewController alloc] init];
-    SwizzleViewController *vc = [[SwizzleViewController alloc] init];
+    RunTimeViewController *vc = [[RunTimeViewController alloc] init];
+//    SwizzleViewController *vc = [[SwizzleViewController alloc] init];
     self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
     return YES;

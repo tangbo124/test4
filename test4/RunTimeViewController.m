@@ -16,11 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    objc_msgSend(self, @selector(testFunc:));
+    objc_msgSend(self, @selector(testFunc:), @"哈哈哈");
 }
 
-void fooMethod(id obj)
+void fooMethod(id obj, SEL _cmd, id newValue)
 {
+    NSLog(@"当前对象: %@, 被替换的方法: %@, 被替换方法的参数: %@", obj, NSStringFromSelector(_cmd), newValue);
     NSLog(@"Doing foo");
 }
 
@@ -39,7 +40,7 @@ void fooMethod(id obj)
          
          types：一个定义该函数返回值类型和参数类型的字符串,官方文档https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ObjCRuntimeGuide/Articles/ocrtTypeEncodings.html
          */
-        class_addMethod([self class], aSEL, (IMP)fooMethod, "v@");
+        class_addMethod([self class], aSEL, (IMP)fooMethod, "v@:@");
         return YES;
     }
     return [super resolveInstanceMethod:aSEL];
