@@ -23,7 +23,6 @@
     CGRect rect = [transitionContext finalFrameForViewController:toVC];
     toVC.view.frame = CGRectOffset(rect, 0, [UIScreen mainScreen].bounds.size.height);
     [[transitionContext containerView] addSubview:toVC.view];
-    
     [UIView animateWithDuration:[self transitionDuration:transitionContext] delay:0.0 usingSpringWithDamping:0.6 initialSpringVelocity:0.0 options:UIViewAnimationOptionCurveLinear animations:^{
         toVC.view.frame = rect;
     } completion:^(BOOL finished) {

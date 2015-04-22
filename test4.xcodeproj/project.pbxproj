@@ -30,6 +30,9 @@
 		284EA3641AE4D74000E4750F /* RootTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 284EA3631AE4D74000E4750F /* RootTransitionViewController.m */; };
 		284EA3671AE4D74D00E4750F /* SecondTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 284EA3661AE4D74D00E4750F /* SecondTransitionViewController.m */; };
 		284EA36A1AE4DA5600E4750F /* RotationPresentAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 284EA3691AE4DA5600E4750F /* RotationPresentAnimation.m */; };
+		284EA3751AE731CB00E4750F /* RunTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 284EA3741AE731CB00E4750F /* RunTimeViewController.m */; };
+		284EA3781AE73C2200E4750F /* UIViewController+Logging.m in Sources */ = {isa = PBXBuildFile; fileRef = 284EA3771AE73C2200E4750F /* UIViewController+Logging.m */; };
+		284EA37E1AE73D3100E4750F /* SwizzleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 284EA37D1AE73D3100E4750F /* SwizzleViewController.m */; };
 		285D12941A77343D005F1A60 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 285D12921A77343D005F1A60 /* 1.png */; };
 		285D12951A77343D005F1A60 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 285D12931A77343D005F1A60 /* 2.png */; };
 		285D12971A7756FD005F1A60 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 285D12961A7756FD005F1A60 /* 4.png */; };
@@ -123,6 +126,12 @@
 		284EA3661AE4D74D00E4750F /* SecondTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondTransitionViewController.m; sourceTree = "<group>"; };
 		284EA3681AE4DA5600E4750F /* RotationPresentAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotationPresentAnimation.h; sourceTree = "<group>"; };
 		284EA3691AE4DA5600E4750F /* RotationPresentAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotationPresentAnimation.m; sourceTree = "<group>"; };
+		284EA3731AE731CB00E4750F /* RunTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunTimeViewController.h; sourceTree = "<group>"; };
+		284EA3741AE731CB00E4750F /* RunTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunTimeViewController.m; sourceTree = "<group>"; };
+		284EA3761AE73C2200E4750F /* UIViewController+Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Logging.h"; sourceTree = "<group>"; };
+		284EA3771AE73C2200E4750F /* UIViewController+Logging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Logging.m"; sourceTree = "<group>"; };
+		284EA37C1AE73D3100E4750F /* SwizzleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwizzleViewController.h; sourceTree = "<group>"; };
+		284EA37D1AE73D3100E4750F /* SwizzleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwizzleViewController.m; sourceTree = "<group>"; };
 		285D12921A77343D005F1A60 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		285D12931A77343D005F1A60 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		285D12961A7756FD005F1A60 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
@@ -300,6 +309,19 @@
 			name = "自定义转场动画";
 			sourceTree = "<group>";
 		};
+		284EA3721AE7318E00E4750F /* runtime例子 */ = {
+			isa = PBXGroup;
+			children = (
+				284EA3731AE731CB00E4750F /* RunTimeViewController.h */,
+				284EA3741AE731CB00E4750F /* RunTimeViewController.m */,
+				284EA3761AE73C2200E4750F /* UIViewController+Logging.h */,
+				284EA3771AE73C2200E4750F /* UIViewController+Logging.m */,
+				284EA37C1AE73D3100E4750F /* SwizzleViewController.h */,
+				284EA37D1AE73D3100E4750F /* SwizzleViewController.m */,
+			);
+			name = "runtime例子";
+			sourceTree = "<group>";
+		};
 		286150681AA82C6700E502C8 /* Masonry例子 */ = {
 			isa = PBXGroup;
 			children = (
@@ -382,6 +404,7 @@
 		28E4B1091A6A2B400015D0D8 /* test4 */ = {
 			isa = PBXGroup;
 			children = (
+				284EA3721AE7318E00E4750F /* runtime例子 */,
 				284EA3611AE4D6F800E4750F /* 自定义转场动画 */,
 				284EA3571AE488CC00E4750F /* AutoLayoutWithTableView */,
 				28836AA41ADDFC00009F59CE /* 显示和隐藏ToolBar */,
@@ -625,8 +648,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				283457351A80CC7E00A05BC8 /* MyImageFilterViewController.m in Sources */,
+				284EA37E1AE73D3100E4750F /* SwizzleViewController.m in Sources */,
 				28836A931ADCE619009F59CE /* MyTableViewCell.m in Sources */,
 				284EA35D1AE48F2200E4750F /* AWTTableViewCell.m in Sources */,
+				284EA3751AE731CB00E4750F /* RunTimeViewController.m in Sources */,
 				28E4B1131A6A2B400015D0D8 /* ViewController.m in Sources */,
 				2834574E1A8229AC00A05BC8 /* MyView.m in Sources */,
 				284EA36A1AE4DA5600E4750F /* RotationPresentAnimation.m in Sources */,
@@ -657,6 +682,7 @@
 				2834573A1A80D60700A05BC8 /* SecondFilterViewController.m in Sources */,
 				280BA7A11A772CDE00CF0BCA /* TestScrollViewViewController.m in Sources */,
 				28E4B10D1A6A2B400015D0D8 /* main.m in Sources */,
+				284EA3781AE73C2200E4750F /* UIViewController+Logging.m in Sources */,
 				28836A8D1ADCE1E1009F59CE /* MyTableViewViewController.m in Sources */,
 				28836A9A1ADCF423009F59CE /* MyTableViewCell+ConfigCellWithUserModel.m in Sources */,
 				287087F11A89F39800E04D33 /* AnimationViewController.m in Sources */,

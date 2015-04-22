@@ -27,6 +27,8 @@
 #import "ToolBarViewController.h"
 #import "AWTViewController.h"
 #import "RootTransitionViewController.h"
+#import "RunTimeViewController.h"
+#import "SwizzleViewController.h"
 
 @interface AppDelegate ()
 
@@ -56,7 +58,9 @@
 //    LabelAutoFitViewController *vc = [[LabelAutoFitViewController alloc] init];
 //    ToolBarViewController *vc = [[ToolBarViewController alloc] init];
 //    AWTViewController *vc = [[AWTViewController alloc] init];
-    RootTransitionViewController *vc = [[RootTransitionViewController alloc] init];
+//    RootTransitionViewController *vc = [[RootTransitionViewController alloc] init];
+//    RunTimeViewController *vc = [[RunTimeViewController alloc] init];
+    SwizzleViewController *vc = [[SwizzleViewController alloc] init];
     self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
     return YES;
