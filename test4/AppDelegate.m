@@ -57,9 +57,9 @@
 //    MyTableViewViewController *vc = [[MyTableViewViewController alloc] init];
 //    LabelAutoFitViewController *vc = [[LabelAutoFitViewController alloc] init];
 //    ToolBarViewController *vc = [[ToolBarViewController alloc] init];
-//    AWTViewController *vc = [[AWTViewController alloc] init];
+    AWTViewController *vc = [[AWTViewController alloc] init];
 //    RootTransitionViewController *vc = [[RootTransitionViewController alloc] init];
-    RunTimeViewController *vc = [[RunTimeViewController alloc] init];
+//    RunTimeViewController *vc = [[RunTimeViewController alloc] init];
 //    SwizzleViewController *vc = [[SwizzleViewController alloc] init];
     self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
