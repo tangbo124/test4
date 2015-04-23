@@ -50,6 +50,7 @@
 		28836AA31ADDF3DA009F59CE /* LabelAutoFitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28836AA21ADDF3DA009F59CE /* LabelAutoFitViewController.m */; };
 		28836AA71ADDFC4C009F59CE /* ToolBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28836AA61ADDFC4C009F59CE /* ToolBarViewController.m */; };
 		289020741A8B69F000515E12 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 289020731A8B69F000515E12 /* OpenGLES.framework */; };
+		289E23071AE897880059B615 /* ScrollViewWithAutoLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289E23061AE897880059B615 /* ScrollViewWithAutoLayoutViewController.m */; };
 		28B24B041A8DF04000472342 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B24B031A8DF04000472342 /* JavaScriptCore.framework */; };
 		28B24B071A8DFC5600472342 /* MyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B24B061A8DFC5600472342 /* MyImageView.m */; };
 		28B525F71A8B4928003485CE /* libReveal.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 28B525F51A8B4716003485CE /* libReveal.dylib */; };
@@ -162,6 +163,8 @@
 		28836AA61ADDFC4C009F59CE /* ToolBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolBarViewController.m; sourceTree = "<group>"; };
 		28836AA81ADE3F85009F59CE /* test4.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test4.pch; sourceTree = "<group>"; };
 		289020731A8B69F000515E12 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		289E23051AE897880059B615 /* ScrollViewWithAutoLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewWithAutoLayoutViewController.h; sourceTree = "<group>"; };
+		289E23061AE897880059B615 /* ScrollViewWithAutoLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewWithAutoLayoutViewController.m; sourceTree = "<group>"; };
 		28B24B031A8DF04000472342 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		28B24B051A8DFC5600472342 /* MyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyImageView.h; sourceTree = "<group>"; };
 		28B24B061A8DFC5600472342 /* MyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyImageView.m; sourceTree = "<group>"; };
@@ -375,6 +378,15 @@
 			name = "显示和隐藏ToolBar";
 			sourceTree = "<group>";
 		};
+		289E23041AE8974E0059B615 /* UIScrollView与自动布局例子 */ = {
+			isa = PBXGroup;
+			children = (
+				289E23051AE897880059B615 /* ScrollViewWithAutoLayoutViewController.h */,
+				289E23061AE897880059B615 /* ScrollViewWithAutoLayoutViewController.m */,
+			);
+			name = "UIScrollView与自动布局例子";
+			sourceTree = "<group>";
+		};
 		28E4B0FE1A6A2B400015D0D8 = {
 			isa = PBXGroup;
 			children = (
@@ -404,6 +416,7 @@
 		28E4B1091A6A2B400015D0D8 /* test4 */ = {
 			isa = PBXGroup;
 			children = (
+				289E23041AE8974E0059B615 /* UIScrollView与自动布局例子 */,
 				284EA3721AE7318E00E4750F /* runtime例子 */,
 				284EA3611AE4D6F800E4750F /* 自定义转场动画 */,
 				284EA3571AE488CC00E4750F /* AutoLayoutWithTableView */,
@@ -679,6 +692,7 @@
 				286462CE1A71F9DD0051A3AC /* ImageFilterViewController.m in Sources */,
 				28D0C98C1A7B2182003767DF /* TestImagePickerViewController.m in Sources */,
 				283745E61A7B265100C1522A /* FirstViewController.m in Sources */,
+				289E23071AE897880059B615 /* ScrollViewWithAutoLayoutViewController.m in Sources */,
 				2834573A1A80D60700A05BC8 /* SecondFilterViewController.m in Sources */,
 				280BA7A11A772CDE00CF0BCA /* TestScrollViewViewController.m in Sources */,
 				28E4B10D1A6A2B400015D0D8 /* main.m in Sources */,

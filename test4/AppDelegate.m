@@ -29,6 +29,7 @@
 #import "RootTransitionViewController.h"
 #import "RunTimeViewController.h"
 #import "SwizzleViewController.h"
+#import "ScrollViewWithAutoLayoutViewController.h"
 
 @interface AppDelegate ()
 
@@ -57,7 +58,7 @@
 //    MyTableViewViewController *vc = [[MyTableViewViewController alloc] init];
 //    LabelAutoFitViewController *vc = [[LabelAutoFitViewController alloc] init];
 //    ToolBarViewController *vc = [[ToolBarViewController alloc] init];
-    AWTViewController *vc = [[AWTViewController alloc] init];
+    ScrollViewWithAutoLayoutViewController *vc = [[ScrollViewWithAutoLayoutViewController alloc] init];
 //    RootTransitionViewController *vc = [[RootTransitionViewController alloc] init];
 //    RunTimeViewController *vc = [[RunTimeViewController alloc] init];
 //    SwizzleViewController *vc = [[SwizzleViewController alloc] init];
