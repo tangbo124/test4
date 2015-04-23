@@ -26,10 +26,8 @@
     self.nameLabel.numberOfLines = 0;
     self.nameLabel.backgroundColor = [UIColor redColor];
     [self.contentView addSubview:self.nameLabel];
-    /*
-     *UILabel的宽度必须固定, 高度任意
-     */
-    NSArray *constraint1 = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-[_nameLabel(200)]" options:0 metrics:nil views:NSDictionaryOfVariableBindings(_nameLabel)];
+    
+    NSArray *constraint1 = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-0-[_nameLabel]-0-|" options:0 metrics:nil views:NSDictionaryOfVariableBindings(_nameLabel)];
     NSArray *constraint2 = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-[_nameLabel]-|" options:0 metrics:nil views:NSDictionaryOfVariableBindings(_nameLabel)];
     [self.contentView addConstraints:constraint1];
     [self.contentView addConstraints:constraint2];

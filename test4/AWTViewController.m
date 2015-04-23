@@ -68,18 +68,29 @@ static NSString * const identifier = @"cell";
     return cell;
 }
 
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+//- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+//{
+//    NSString *str = self.dataArray[indexPath.row];
+//    _prototypeCell.nameLabel.text = str;
+//    
+//    CGSize size = [_prototypeCell.contentView systemLayoutSizeFittingSize:UILayoutFittingCompressedSize];
+////    NSLog(@"size : %@", NSStringFromCGSize(size));
+//    NSLog(@"");
+//    return size.height + 1;
+//}
+
+/*
+ *当cell中的UILabel只设置了左右越苏, 没有设置宽度时(H:|-0-[_nameLabel]-0-|),使
+ *用estimatedHeightForRowAtIndexPath方法才可以返回正确的高度
+ */
+- (CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NSString *str = self.dataArray[indexPath.row];
     _prototypeCell.nameLabel.text = str;
+    
     CGSize size = [_prototypeCell.contentView systemLayoutSizeFittingSize:UILayoutFittingCompressedSize];
     NSLog(@"size : %@", NSStringFromCGSize(size));
     return size.height + 1;
-}
-
-- (CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    return 44;
 }
 
 -(void)didReceiveMemoryWarning {
