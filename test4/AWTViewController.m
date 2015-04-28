@@ -80,7 +80,7 @@ static NSString * const identifier = @"cell";
 //}
 
 /*
- *当cell中的UILabel只设置了左右越苏, 没有设置宽度时(H:|-0-[_nameLabel]-0-|),使
+ *当cell中的UILabel只设置了左右约束, 没有设置宽度时(H:|-0-[_nameLabel]-0-|),使
  *用estimatedHeightForRowAtIndexPath方法才可以返回正确的高度
  */
 - (CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath
