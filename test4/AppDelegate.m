@@ -30,6 +30,7 @@
 #import "RunTimeViewController.h"
 #import "SwizzleViewController.h"
 #import "ScrollViewWithAutoLayoutViewController.h"
+#import "TestLayoutSubviewsViewController.h"
 
 @interface AppDelegate ()
 
@@ -53,7 +54,7 @@
 //    UIDynamicsViewController *vc = [[UIDynamicsViewController alloc] init];
 //    TestNetWorkViewController *vc = [[TestNetWorkViewController alloc] init];
 //    AnimationViewController *vc = [[AnimationViewController alloc] init];
-    AutoLayoutViewController *vc = [[AutoLayoutViewController alloc] init];
+//    AutoLayoutViewController *vc = [[AutoLayoutViewController alloc] init];
 //    MasonryViewController *vc = [[MasonryViewController alloc] init];
 //    MyTableViewViewController *vc = [[MyTableViewViewController alloc] init];
 //    LabelAutoFitViewController *vc = [[LabelAutoFitViewController alloc] init];
@@ -63,6 +64,7 @@
 //    RunTimeViewController *vc = [[RunTimeViewController alloc] init];
 //    SwizzleViewController *vc = [[SwizzleViewController alloc] init];
 //    AWTViewController *vc = [[AWTViewController alloc] init];
+    TestLayoutSubviewsViewController *vc = [[TestLayoutSubviewsViewController alloc] init];
     self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
     return YES;

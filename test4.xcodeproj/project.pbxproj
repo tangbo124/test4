@@ -69,6 +69,10 @@
 		28E4B1371A6A33280015D0D8 /* b@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28E4B1361A6A33280015D0D8 /* b@2x.png */; };
 		28E4B1391A6A33C50015D0D8 /* c@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28E4B1381A6A33C50015D0D8 /* c@2x.png */; };
 		28EA23CD1AA58E4000FBC8DB /* AutoLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EA23CC1AA58E4000FBC8DB /* AutoLayoutViewController.m */; };
+		28F2DF281B0A0A4B002DD385 /* MyCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F2DF271B0A0A4B002DD385 /* MyCustomView.m */; };
+		28F2DF2B1B0A0B55002DD385 /* TestLayoutSubviewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F2DF2A1B0A0B55002DD385 /* TestLayoutSubviewsViewController.m */; };
+		28F2DF431B0B3943002DD385 /* TestLayoutsubViewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F2DF421B0B3943002DD385 /* TestLayoutsubViewsTableViewCell.m */; };
+		28F2DF461B0B3B30002DD385 /* CustomModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F2DF451B0B3B30002DD385 /* CustomModel.m */; };
 		70BD6F4624A5608CAA3FD203 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB3D1D5728427378DE9075B /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -193,6 +197,14 @@
 		28E4B1381A6A33C50015D0D8 /* c@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "c@2x.png"; sourceTree = "<group>"; };
 		28EA23CB1AA58E4000FBC8DB /* AutoLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutViewController.h; sourceTree = "<group>"; };
 		28EA23CC1AA58E4000FBC8DB /* AutoLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutViewController.m; sourceTree = "<group>"; };
+		28F2DF261B0A0A4B002DD385 /* MyCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomView.h; sourceTree = "<group>"; };
+		28F2DF271B0A0A4B002DD385 /* MyCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomView.m; sourceTree = "<group>"; };
+		28F2DF291B0A0B55002DD385 /* TestLayoutSubviewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestLayoutSubviewsViewController.h; sourceTree = "<group>"; };
+		28F2DF2A1B0A0B55002DD385 /* TestLayoutSubviewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestLayoutSubviewsViewController.m; sourceTree = "<group>"; };
+		28F2DF411B0B3943002DD385 /* TestLayoutsubViewsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestLayoutsubViewsTableViewCell.h; sourceTree = "<group>"; };
+		28F2DF421B0B3943002DD385 /* TestLayoutsubViewsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestLayoutsubViewsTableViewCell.m; sourceTree = "<group>"; };
+		28F2DF441B0B3B30002DD385 /* CustomModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomModel.h; sourceTree = "<group>"; };
+		28F2DF451B0B3B30002DD385 /* CustomModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomModel.m; sourceTree = "<group>"; };
 		9A76057C1632FFC4DB7308EE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -416,6 +428,7 @@
 		28E4B1091A6A2B400015D0D8 /* test4 */ = {
 			isa = PBXGroup;
 			children = (
+				28F2DF221B0A09A6002DD385 /* layoutsubviews */,
 				289E23041AE8974E0059B615 /* UIScrollView与自动布局例子 */,
 				284EA3721AE7318E00E4750F /* runtime例子 */,
 				284EA3611AE4D6F800E4750F /* 自定义转场动画 */,
@@ -504,6 +517,21 @@
 				28EA23CC1AA58E4000FBC8DB /* AutoLayoutViewController.m */,
 			);
 			name = AutoLayout;
+			sourceTree = "<group>";
+		};
+		28F2DF221B0A09A6002DD385 /* layoutsubviews */ = {
+			isa = PBXGroup;
+			children = (
+				28F2DF261B0A0A4B002DD385 /* MyCustomView.h */,
+				28F2DF271B0A0A4B002DD385 /* MyCustomView.m */,
+				28F2DF291B0A0B55002DD385 /* TestLayoutSubviewsViewController.h */,
+				28F2DF2A1B0A0B55002DD385 /* TestLayoutSubviewsViewController.m */,
+				28F2DF411B0B3943002DD385 /* TestLayoutsubViewsTableViewCell.h */,
+				28F2DF421B0B3943002DD385 /* TestLayoutsubViewsTableViewCell.m */,
+				28F2DF441B0B3B30002DD385 /* CustomModel.h */,
+				28F2DF451B0B3B30002DD385 /* CustomModel.m */,
+			);
+			name = layoutsubviews;
 			sourceTree = "<group>";
 		};
 		7ED08ADD2C652113251B276C /* Pods */ = {
@@ -665,6 +693,7 @@
 				28836A931ADCE619009F59CE /* MyTableViewCell.m in Sources */,
 				284EA35D1AE48F2200E4750F /* AWTTableViewCell.m in Sources */,
 				284EA3751AE731CB00E4750F /* RunTimeViewController.m in Sources */,
+				28F2DF461B0B3B30002DD385 /* CustomModel.m in Sources */,
 				28E4B1131A6A2B400015D0D8 /* ViewController.m in Sources */,
 				2834574E1A8229AC00A05BC8 /* MyView.m in Sources */,
 				284EA36A1AE4DA5600E4750F /* RotationPresentAnimation.m in Sources */,
@@ -678,10 +707,12 @@
 				2834572E1A80811100A05BC8 /* MyTextView.m in Sources */,
 				283457591A85C0C800A05BC8 /* TestNetWorkViewController.m in Sources */,
 				280EF6E81A7889BE00EEA19A /* TestTableViewViewController.m in Sources */,
+				28F2DF281B0A0A4B002DD385 /* MyCustomView.m in Sources */,
 				2861508C1AA830B100E502C8 /* MasonryViewController.m in Sources */,
 				285D129A1A77584D005F1A60 /* UIScrollView+Circle.m in Sources */,
 				2834574B1A82006F00A05BC8 /* UIDynamicsViewController.m in Sources */,
 				28836A961ADCE6DB009F59CE /* UserModel.m in Sources */,
+				28F2DF431B0B3943002DD385 /* TestLayoutsubViewsTableViewCell.m in Sources */,
 				283457551A830DFF00A05BC8 /* TestQuarzViewController.m in Sources */,
 				286462BE1A6E559E0051A3AC /* ScreenShotViewController.m in Sources */,
 				2834572B1A80757E00A05BC8 /* MyTextAttachment.m in Sources */,
@@ -694,6 +725,7 @@
 				283745E61A7B265100C1522A /* FirstViewController.m in Sources */,
 				289E23071AE897880059B615 /* ScrollViewWithAutoLayoutViewController.m in Sources */,
 				2834573A1A80D60700A05BC8 /* SecondFilterViewController.m in Sources */,
+				28F2DF2B1B0A0B55002DD385 /* TestLayoutSubviewsViewController.m in Sources */,
 				280BA7A11A772CDE00CF0BCA /* TestScrollViewViewController.m in Sources */,
 				28E4B10D1A6A2B400015D0D8 /* main.m in Sources */,
 				284EA3781AE73C2200E4750F /* UIViewController+Logging.m in Sources */,
