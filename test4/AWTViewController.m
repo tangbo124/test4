@@ -33,6 +33,7 @@ static NSString * const identifier = @"cell";
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
     [self.tableView registerClass:[AWTTableViewCell class] forCellReuseIdentifier:identifier];
+//    self.tableView
     [self.view addSubview:self.tableView];
     
     NSArray *constranint1 = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-0-[_tableView]-0-|" options:0 metrics:nil views:NSDictionaryOfVariableBindings(_tableView)];

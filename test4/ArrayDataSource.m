@@ -20,9 +20,9 @@
 {
     self = [super init];
     if (self) {
-        self.dataSource = dataSource;
-        self.indentifier = indentifier;
-        self.configureCellBlock = configCellBlock;
+        _dataSource = dataSource;
+        _indentifier = indentifier;
+        _configureCellBlock = configCellBlock;
     }
     return self;
 }

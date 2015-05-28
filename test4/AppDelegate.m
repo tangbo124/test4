@@ -31,7 +31,9 @@
 #import "SwizzleViewController.h"
 #import "ScrollViewWithAutoLayoutViewController.h"
 #import "TestLayoutSubviewsViewController.h"
-
+#import "TestCircleTableViewViewController.h"
+#import "TestNavigationBarViewController.h"
+#import "TestPanViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -64,8 +66,13 @@
 //    RunTimeViewController *vc = [[RunTimeViewController alloc] init];
 //    SwizzleViewController *vc = [[SwizzleViewController alloc] init];
 //    AWTViewController *vc = [[AWTViewController alloc] init];
-    TestLayoutSubviewsViewController *vc = [[TestLayoutSubviewsViewController alloc] init];
-    self.window.rootViewController = vc;
+//    TestLayoutSubviewsViewController *vc = [[TestLayoutSubviewsViewController alloc] init];
+//    TestScrollViewViewController *vc = [[TestScrollViewViewController alloc] init];
+//    TestCircleTableViewViewController *vc = [[TestCircleTableViewViewController alloc] init];
+    TestNavigationBarViewController *vc = [[TestNavigationBarViewController alloc] init];
+    UINavigationController *nvc = [[UINavigationController alloc] initWithRootViewController:vc];
+//    TestPanViewController *vc = [[TestPanViewController alloc] init];
+    self.window.rootViewController = nvc;
     [self.window makeKeyAndVisible];
     return YES;
 }

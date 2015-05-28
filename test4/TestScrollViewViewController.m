@@ -8,6 +8,7 @@
 
 #import "TestScrollViewViewController.h"
 #import "UIScrollView+Circle.h"
+#import "Masonry.h"
 #define WIDTH [UIScreen mainScreen].bounds.size.width
 #define HEIGHT 300
 @interface TestScrollViewViewController ()
@@ -25,20 +26,38 @@
     dataArray = [[NSMutableArray alloc] init];
     UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 20, WIDTH, HEIGHT)];
     scrollView.pagingEnabled = YES;
-    scrollView.contentSize = CGSizeMake(WIDTH * 4, HEIGHT);
+//    scrollView.contentSize = CGSizeMake(WIDTH * 4, HEIGHT);
     scrollView.delegate = self;
     [self.view addSubview:scrollView];
+    
+    [scrollView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.mas_equalTo(20);
+        make.left.mas_equalTo(0);
+        make.size.sizeOffset(CGSizeMake(WIDTH, HEIGHT));
+    }];
+    
     _scrollView = scrollView;
+    CGFloat w = scrollView.frame.size.width;
+    CGFloat h = scrollView.frame.size.height;
     
     for (int i = 0; i < 4; i ++) {
-        CGFloat w = scrollView.frame.size.width;
-        CGFloat h = scrollView.frame.size.height;
-        CGFloat x = i * w;
-        CGFloat y = 0;
-        UIImageView *view = [[UIImageView alloc] initWithFrame:CGRectMake(x, y, w, h)];
+//        CGFloat w = scrollView.frame.size.width;
+//        CGFloat h = scrollView.frame.size.height;
+//        CGFloat x = i * w;
+//        CGFloat y = 0;
+//        UIImageView *view = [[UIImageView alloc] initWithFrame:CGRectMake(x, y, w, h)];
+        UIImageView *view = [UIImageView new];
         view.tag = 1000 + i;
+        
         view.image = [UIImage imageNamed:[NSString stringWithFormat:@"%i.png", i + 1]];
+        
         [scrollView addSubview:view];
+        
+        [view mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.edges.insets(UIEdgeInsetsMake(0, w * i, 0, (4-i-1) * w));
+            make.width.mas_equalTo(w);
+            make.height.mas_equalTo(h);
+        }];
         [dataArray addObject:view];
     }
     scrollView.circleDataArray = dataArray;

@@ -51,6 +51,9 @@
 		28836AA71ADDFC4C009F59CE /* ToolBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28836AA61ADDFC4C009F59CE /* ToolBarViewController.m */; };
 		289020741A8B69F000515E12 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 289020731A8B69F000515E12 /* OpenGLES.framework */; };
 		289E23071AE897880059B615 /* ScrollViewWithAutoLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289E23061AE897880059B615 /* ScrollViewWithAutoLayoutViewController.m */; };
+		28A774EF1B0CB42B0068B399 /* TestCircleTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A774EE1B0CB42B0068B399 /* TestCircleTableViewViewController.m */; };
+		28A774F21B0CB57D0068B399 /* CircleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A774F11B0CB57D0068B399 /* CircleTableViewCell.m */; };
+		28A774F51B0D6AC70068B399 /* UIScrollView+TestCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A774F41B0D6AC70068B399 /* UIScrollView+TestCircle.m */; };
 		28B24B041A8DF04000472342 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B24B031A8DF04000472342 /* JavaScriptCore.framework */; };
 		28B24B071A8DFC5600472342 /* MyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B24B061A8DFC5600472342 /* MyImageView.m */; };
 		28B525F71A8B4928003485CE /* libReveal.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 28B525F51A8B4716003485CE /* libReveal.dylib */; };
@@ -59,6 +62,9 @@
 		28B525FD1A8B4A0B003485CE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B525FC1A8B4A0B003485CE /* QuartzCore.framework */; };
 		28B525FF1A8B4A15003485CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B525FE1A8B4A15003485CE /* CoreGraphics.framework */; };
 		28D0C98C1A7B2182003767DF /* TestImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D0C98B1A7B2182003767DF /* TestImagePickerViewController.m */; };
+		28E2BE9D1B0DBE69009A2A60 /* TestNavigationBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E2BE9C1B0DBE69009A2A60 /* TestNavigationBarViewController.m */; };
+		28E2BEA41B0EEE19009A2A60 /* TestNavi2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E2BEA31B0EEE19009A2A60 /* TestNavi2ViewController.m */; };
+		28E2BEA81B0F23FB009A2A60 /* TestPanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E2BEA71B0F23FB009A2A60 /* TestPanViewController.m */; };
 		28E4B10D1A6A2B400015D0D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E4B10C1A6A2B400015D0D8 /* main.m */; };
 		28E4B1101A6A2B400015D0D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E4B10F1A6A2B400015D0D8 /* AppDelegate.m */; };
 		28E4B1131A6A2B400015D0D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E4B1121A6A2B400015D0D8 /* ViewController.m */; };
@@ -169,6 +175,12 @@
 		289020731A8B69F000515E12 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		289E23051AE897880059B615 /* ScrollViewWithAutoLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewWithAutoLayoutViewController.h; sourceTree = "<group>"; };
 		289E23061AE897880059B615 /* ScrollViewWithAutoLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewWithAutoLayoutViewController.m; sourceTree = "<group>"; };
+		28A774ED1B0CB42B0068B399 /* TestCircleTableViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCircleTableViewViewController.h; sourceTree = "<group>"; };
+		28A774EE1B0CB42B0068B399 /* TestCircleTableViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCircleTableViewViewController.m; sourceTree = "<group>"; };
+		28A774F01B0CB57D0068B399 /* CircleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleTableViewCell.h; sourceTree = "<group>"; };
+		28A774F11B0CB57D0068B399 /* CircleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleTableViewCell.m; sourceTree = "<group>"; };
+		28A774F31B0D6AC70068B399 /* UIScrollView+TestCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TestCircle.h"; sourceTree = "<group>"; };
+		28A774F41B0D6AC70068B399 /* UIScrollView+TestCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TestCircle.m"; sourceTree = "<group>"; };
 		28B24B031A8DF04000472342 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		28B24B051A8DFC5600472342 /* MyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyImageView.h; sourceTree = "<group>"; };
 		28B24B061A8DFC5600472342 /* MyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyImageView.m; sourceTree = "<group>"; };
@@ -180,6 +192,12 @@
 		28B525FE1A8B4A15003485CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		28D0C98A1A7B2182003767DF /* TestImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestImagePickerViewController.h; sourceTree = "<group>"; };
 		28D0C98B1A7B2182003767DF /* TestImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestImagePickerViewController.m; sourceTree = "<group>"; };
+		28E2BE9B1B0DBE69009A2A60 /* TestNavigationBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNavigationBarViewController.h; sourceTree = "<group>"; };
+		28E2BE9C1B0DBE69009A2A60 /* TestNavigationBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNavigationBarViewController.m; sourceTree = "<group>"; };
+		28E2BEA21B0EEE19009A2A60 /* TestNavi2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNavi2ViewController.h; sourceTree = "<group>"; };
+		28E2BEA31B0EEE19009A2A60 /* TestNavi2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNavi2ViewController.m; sourceTree = "<group>"; };
+		28E2BEA61B0F23FB009A2A60 /* TestPanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPanViewController.h; sourceTree = "<group>"; };
+		28E2BEA71B0F23FB009A2A60 /* TestPanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPanViewController.m; sourceTree = "<group>"; };
 		28E4B1071A6A2B400015D0D8 /* test4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E4B10B1A6A2B400015D0D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28E4B10C1A6A2B400015D0D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -399,6 +417,39 @@
 			name = "UIScrollView与自动布局例子";
 			sourceTree = "<group>";
 		};
+		28A774E01B0C8BEE0068B399 /* 循环滚动TableView */ = {
+			isa = PBXGroup;
+			children = (
+				28A774ED1B0CB42B0068B399 /* TestCircleTableViewViewController.h */,
+				28A774EE1B0CB42B0068B399 /* TestCircleTableViewViewController.m */,
+				28A774F01B0CB57D0068B399 /* CircleTableViewCell.h */,
+				28A774F11B0CB57D0068B399 /* CircleTableViewCell.m */,
+				28A774F31B0D6AC70068B399 /* UIScrollView+TestCircle.h */,
+				28A774F41B0D6AC70068B399 /* UIScrollView+TestCircle.m */,
+			);
+			name = "循环滚动TableView";
+			sourceTree = "<group>";
+		};
+		28E2BE9A1B0DBE48009A2A60 /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				28E2BE9B1B0DBE69009A2A60 /* TestNavigationBarViewController.h */,
+				28E2BE9C1B0DBE69009A2A60 /* TestNavigationBarViewController.m */,
+				28E2BEA21B0EEE19009A2A60 /* TestNavi2ViewController.h */,
+				28E2BEA31B0EEE19009A2A60 /* TestNavi2ViewController.m */,
+			);
+			name = NavigationBar;
+			sourceTree = "<group>";
+		};
+		28E2BEA51B0F23E6009A2A60 /* UIPanGesturer */ = {
+			isa = PBXGroup;
+			children = (
+				28E2BEA61B0F23FB009A2A60 /* TestPanViewController.h */,
+				28E2BEA71B0F23FB009A2A60 /* TestPanViewController.m */,
+			);
+			name = UIPanGesturer;
+			sourceTree = "<group>";
+		};
 		28E4B0FE1A6A2B400015D0D8 = {
 			isa = PBXGroup;
 			children = (
@@ -428,6 +479,9 @@
 		28E4B1091A6A2B400015D0D8 /* test4 */ = {
 			isa = PBXGroup;
 			children = (
+				28E2BEA51B0F23E6009A2A60 /* UIPanGesturer */,
+				28E2BE9A1B0DBE48009A2A60 /* NavigationBar */,
+				28A774E01B0C8BEE0068B399 /* 循环滚动TableView */,
 				28F2DF221B0A09A6002DD385 /* layoutsubviews */,
 				289E23041AE8974E0059B615 /* UIScrollView与自动布局例子 */,
 				284EA3721AE7318E00E4750F /* runtime例子 */,
@@ -448,10 +502,10 @@
 				28E4B10F1A6A2B400015D0D8 /* AppDelegate.m */,
 				28D0C98A1A7B2182003767DF /* TestImagePickerViewController.h */,
 				28D0C98B1A7B2182003767DF /* TestImagePickerViewController.m */,
-				283745E41A7B265100C1522A /* FirstViewController.h */,
-				283745E51A7B265100C1522A /* FirstViewController.m */,
 				285D12981A77584D005F1A60 /* UIScrollView+Circle.h */,
 				285D12991A77584D005F1A60 /* UIScrollView+Circle.m */,
+				283745E41A7B265100C1522A /* FirstViewController.h */,
+				283745E51A7B265100C1522A /* FirstViewController.m */,
 				280EF6E61A7889BE00EEA19A /* TestTableViewViewController.h */,
 				280EF6E71A7889BE00EEA19A /* TestTableViewViewController.m */,
 				280BA79F1A772CDE00CF0BCA /* TestScrollViewViewController.h */,
@@ -693,8 +747,10 @@
 				28836A931ADCE619009F59CE /* MyTableViewCell.m in Sources */,
 				284EA35D1AE48F2200E4750F /* AWTTableViewCell.m in Sources */,
 				284EA3751AE731CB00E4750F /* RunTimeViewController.m in Sources */,
+				28A774F21B0CB57D0068B399 /* CircleTableViewCell.m in Sources */,
 				28F2DF461B0B3B30002DD385 /* CustomModel.m in Sources */,
 				28E4B1131A6A2B400015D0D8 /* ViewController.m in Sources */,
+				28A774EF1B0CB42B0068B399 /* TestCircleTableViewViewController.m in Sources */,
 				2834574E1A8229AC00A05BC8 /* MyView.m in Sources */,
 				284EA36A1AE4DA5600E4750F /* RotationPresentAnimation.m in Sources */,
 				28836AA71ADDFC4C009F59CE /* ToolBarViewController.m in Sources */,
@@ -717,8 +773,11 @@
 				286462BE1A6E559E0051A3AC /* ScreenShotViewController.m in Sources */,
 				2834572B1A80757E00A05BC8 /* MyTextAttachment.m in Sources */,
 				28836AA31ADDF3DA009F59CE /* LabelAutoFitViewController.m in Sources */,
+				28E2BE9D1B0DBE69009A2A60 /* TestNavigationBarViewController.m in Sources */,
 				283457211A806C7A00A05BC8 /* TestKitViewController.m in Sources */,
+				28E2BEA41B0EEE19009A2A60 /* TestNavi2ViewController.m in Sources */,
 				28B24B071A8DFC5600472342 /* MyImageView.m in Sources */,
+				28A774F51B0D6AC70068B399 /* UIScrollView+TestCircle.m in Sources */,
 				28836A901ADCE247009F59CE /* ArrayDataSource.m in Sources */,
 				286462CE1A71F9DD0051A3AC /* ImageFilterViewController.m in Sources */,
 				28D0C98C1A7B2182003767DF /* TestImagePickerViewController.m in Sources */,
@@ -728,6 +787,7 @@
 				28F2DF2B1B0A0B55002DD385 /* TestLayoutSubviewsViewController.m in Sources */,
 				280BA7A11A772CDE00CF0BCA /* TestScrollViewViewController.m in Sources */,
 				28E4B10D1A6A2B400015D0D8 /* main.m in Sources */,
+				28E2BEA81B0F23FB009A2A60 /* TestPanViewController.m in Sources */,
 				284EA3781AE73C2200E4750F /* UIViewController+Logging.m in Sources */,
 				28836A8D1ADCE1E1009F59CE /* MyTableViewViewController.m in Sources */,
 				28836A9A1ADCF423009F59CE /* MyTableViewCell+ConfigCellWithUserModel.m in Sources */,
