@@ -25,4 +25,6 @@
 #define NSLog(format, ...) do{ } while(0)
 #endif
 
+#import "Masonry.h"
+
 #endif

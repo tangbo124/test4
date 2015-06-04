@@ -42,6 +42,9 @@
 		286462CE1A71F9DD0051A3AC /* ImageFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 286462CD1A71F9DD0051A3AC /* ImageFilterViewController.m */; };
 		286462D01A71FE1F0051A3AC /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 286462CF1A71FE1F0051A3AC /* 3.png */; };
 		2865572F1B1C2D9600A11C9C /* ClickLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2865572E1B1C2D9600A11C9C /* ClickLabel.m */; };
+		286725DA1B20383300F6D3DB /* CubeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 286725D91B20383300F6D3DB /* CubeViewController.m */; };
+		286725DD1B20465600F6D3DB /* hotgirl1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 286725DB1B20465600F6D3DB /* hotgirl1.jpg */; };
+		286725DE1B20465600F6D3DB /* hotgirl2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 286725DC1B20465600F6D3DB /* hotgirl2.jpg */; };
 		287087F11A89F39800E04D33 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 287087F01A89F39800E04D33 /* AnimationViewController.m */; };
 		2883478A1B16A6400038F637 /* MyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 288347891B16A6400038F637 /* MyLabel.m */; };
 		2883478D1B16A6AC0038F637 /* CoreTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2883478C1B16A6AC0038F637 /* CoreTextViewController.m */; };
@@ -198,6 +201,7 @@
 		28E571D21B1ED32800E306B0 /* Emoji.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28E5715C1B1ED32800E306B0 /* Emoji.plist */; };
 		28E571D51B1EDAF200E306B0 /* MyEmojiLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E571D41B1EDAF200E306B0 /* MyEmojiLabel.m */; };
 		28E571D81B1EF50600E306B0 /* CoreTextTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E571D71B1EF50600E306B0 /* CoreTextTools.m */; };
+		28E571DC1B2004E700E306B0 /* Transform3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E571DB1B2004E700E306B0 /* Transform3DViewController.m */; };
 		28EA23CD1AA58E4000FBC8DB /* AutoLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EA23CC1AA58E4000FBC8DB /* AutoLayoutViewController.m */; };
 		28F2DF281B0A0A4B002DD385 /* MyCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F2DF271B0A0A4B002DD385 /* MyCustomView.m */; };
 		28F2DF2B1B0A0B55002DD385 /* TestLayoutSubviewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F2DF2A1B0A0B55002DD385 /* TestLayoutSubviewsViewController.m */; };
@@ -281,6 +285,10 @@
 		286462CF1A71FE1F0051A3AC /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 		2865572D1B1C2D9600A11C9C /* ClickLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClickLabel.h; sourceTree = "<group>"; };
 		2865572E1B1C2D9600A11C9C /* ClickLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClickLabel.m; sourceTree = "<group>"; };
+		286725D81B20383300F6D3DB /* CubeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CubeViewController.h; sourceTree = "<group>"; };
+		286725D91B20383300F6D3DB /* CubeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CubeViewController.m; sourceTree = "<group>"; };
+		286725DB1B20465600F6D3DB /* hotgirl1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hotgirl1.jpg; sourceTree = "<group>"; };
+		286725DC1B20465600F6D3DB /* hotgirl2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hotgirl2.jpg; sourceTree = "<group>"; };
 		287087EF1A89F39800E04D33 /* AnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
 		287087F01A89F39800E04D33 /* AnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
 		288347881B16A6400038F637 /* MyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLabel.h; sourceTree = "<group>"; };
@@ -467,6 +475,8 @@
 		28E571D41B1EDAF200E306B0 /* MyEmojiLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyEmojiLabel.m; sourceTree = "<group>"; };
 		28E571D61B1EF50600E306B0 /* CoreTextTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTextTools.h; sourceTree = "<group>"; };
 		28E571D71B1EF50600E306B0 /* CoreTextTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreTextTools.m; sourceTree = "<group>"; };
+		28E571DA1B2004E700E306B0 /* Transform3DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transform3DViewController.h; sourceTree = "<group>"; };
+		28E571DB1B2004E700E306B0 /* Transform3DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transform3DViewController.m; sourceTree = "<group>"; };
 		28EA23CB1AA58E4000FBC8DB /* AutoLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutViewController.h; sourceTree = "<group>"; };
 		28EA23CC1AA58E4000FBC8DB /* AutoLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutViewController.m; sourceTree = "<group>"; };
 		28F2DF261B0A0A4B002DD385 /* MyCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomView.h; sourceTree = "<group>"; };
@@ -749,6 +759,7 @@
 		28E4B1091A6A2B400015D0D8 /* test4 */ = {
 			isa = PBXGroup;
 			children = (
+				28E571D91B2004BB00E306B0 /* 3D变换 */,
 				288347871B16A48E0038F637 /* CoreText */,
 				28E2BEA51B0F23E6009A2A60 /* UIPanGesturer */,
 				28E2BE9A1B0DBE48009A2A60 /* NavigationBar */,
@@ -803,6 +814,8 @@
 				283457221A806D4800A05BC8 /* test.html */,
 				283457261A806F7E00A05BC8 /* hufeng.png */,
 				283457241A806F7700A05BC8 /* taobao.gif */,
+				286725DB1B20465600F6D3DB /* hotgirl1.jpg */,
+				286725DC1B20465600F6D3DB /* hotgirl2.jpg */,
 				285D12921A77343D005F1A60 /* 1.png */,
 				285D12931A77343D005F1A60 /* 2.png */,
 				286462CF1A71FE1F0051A3AC /* 3.png */,
@@ -972,6 +985,17 @@
 			path = "emoji 2";
 			sourceTree = "<group>";
 		};
+		28E571D91B2004BB00E306B0 /* 3D变换 */ = {
+			isa = PBXGroup;
+			children = (
+				28E571DA1B2004E700E306B0 /* Transform3DViewController.h */,
+				28E571DB1B2004E700E306B0 /* Transform3DViewController.m */,
+				286725D81B20383300F6D3DB /* CubeViewController.h */,
+				286725D91B20383300F6D3DB /* CubeViewController.m */,
+			);
+			name = "3D变换";
+			sourceTree = "<group>";
+		};
 		28EA23CA1AA58E1E00FBC8DB /* AutoLayout */ = {
 			isa = PBXGroup;
 			children = (
@@ -1132,6 +1156,7 @@
 				28E571991B1ED32800E306B0 /* emoji_24.png in Resources */,
 				28E571CF1B1ED32800E306B0 /* emoji_9.png in Resources */,
 				28E5716E1B1ED32800E306B0 /* emoji_186.png in Resources */,
+				286725DD1B20465600F6D3DB /* hotgirl1.jpg in Resources */,
 				285D12951A77343D005F1A60 /* 2.png in Resources */,
 				28E571A91B1ED32800E306B0 /* emoji_39.png in Resources */,
 				28E5715F1B1ED32800E306B0 /* emoji_11.png in Resources */,
@@ -1144,6 +1169,7 @@
 				28E571CA1B1ED32800E306B0 /* emoji_69.png in Resources */,
 				28E571AB1B1ED32800E306B0 /* emoji_40.png in Resources */,
 				28E571C41B1ED32800E306B0 /* emoji_63.png in Resources */,
+				286725DE1B20465600F6D3DB /* hotgirl2.jpg in Resources */,
 				28E571AA1B1ED32800E306B0 /* emoji_4.png in Resources */,
 				28E571C11B1ED32800E306B0 /* emoji_60.png in Resources */,
 				28E571931B1ED32800E306B0 /* emoji_220.png in Resources */,
@@ -1286,6 +1312,7 @@
 				2834573D1A80DD7D00A05BC8 /* ShowFilterImageViewController.m in Sources */,
 				284EA3671AE4D74D00E4750F /* SecondTransitionViewController.m in Sources */,
 				284EA3641AE4D74000E4750F /* RootTransitionViewController.m in Sources */,
+				28E571DC1B2004E700E306B0 /* Transform3DViewController.m in Sources */,
 				2834572E1A80811100A05BC8 /* MyTextView.m in Sources */,
 				283457591A85C0C800A05BC8 /* TestNetWorkViewController.m in Sources */,
 				280EF6E81A7889BE00EEA19A /* TestTableViewViewController.m in Sources */,
@@ -1297,6 +1324,7 @@
 				28836A961ADCE6DB009F59CE /* UserModel.m in Sources */,
 				28F2DF431B0B3943002DD385 /* TestLayoutsubViewsTableViewCell.m in Sources */,
 				283457551A830DFF00A05BC8 /* TestQuarzViewController.m in Sources */,
+				286725DA1B20383300F6D3DB /* CubeViewController.m in Sources */,
 				286462BE1A6E559E0051A3AC /* ScreenShotViewController.m in Sources */,
 				2834572B1A80757E00A05BC8 /* MyTextAttachment.m in Sources */,
 				28836AA31ADDF3DA009F59CE /* LabelAutoFitViewController.m in Sources */,
@@ -1449,7 +1477,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/test4",
 				);
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lz",

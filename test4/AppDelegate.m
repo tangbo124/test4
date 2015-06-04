@@ -36,6 +36,8 @@
 #import "TestPanViewController.h"
 #import "CoreTextViewController.h"
 #import "EmojiViewController.h"
+#import "Transform3DViewController.h"
+#import "CubeViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -74,8 +76,10 @@
 //    TestNavigationBarViewController *vc = [[TestNavigationBarViewController alloc] init];
 //    UINavigationController *nvc = [[UINavigationController alloc] initWithRootViewController:vc];
 //    TestPanViewController *vc = [[TestPanViewController alloc] init];
-    CoreTextViewController *vc = [[CoreTextViewController alloc] init];
+//    CoreTextViewController *vc = [[CoreTextViewController alloc] init];
 //    EmojiViewController *vc = [[EmojiViewController alloc] init];
+    Transform3DViewController *vc = [[Transform3DViewController alloc] init];
+//    CubeViewController *vc = [[CubeViewController alloc] init];
     self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
     return YES;

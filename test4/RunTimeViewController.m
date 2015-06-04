@@ -7,7 +7,7 @@
 //
 
 #import "RunTimeViewController.h"
-#import <objc/objc-runtime.h>
+#import <objc/message.h>
 @interface RunTimeViewController ()
 
 @end
