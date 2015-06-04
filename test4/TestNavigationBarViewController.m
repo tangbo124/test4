@@ -20,7 +20,7 @@
     [super viewDidLoad];
     self.title = @"1";
     self.view.backgroundColor = [UIColor grayColor];
-    /*
+    
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     [btn setTitle:@"点击" forState:UIControlStateNormal];
     btn.backgroundColor = [UIColor redColor];
@@ -32,8 +32,10 @@
         make.top.mas_equalTo(100);
         make.size.mas_equalTo(CGSizeMake(100, 50));
     }];
-    */
     
+    self.navigationController.navigationBarHidden = YES;
+    
+    return;
     self.automaticallyAdjustsScrollViewInsets = NO;
     UIView *redView = [UIView new];
     redView.backgroundColor = [UIColor greenColor];

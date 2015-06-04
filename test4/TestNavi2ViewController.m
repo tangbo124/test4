@@ -18,7 +18,7 @@
     [super viewDidLoad];
     self.title = @"2";
     self.view.backgroundColor = [UIColor redColor];
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:[UIView new]];
+//    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:[UIView new]];
     /*
      *改变UINavigationBar之后, 依然可以滑动pop
      */

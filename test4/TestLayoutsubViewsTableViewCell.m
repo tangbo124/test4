@@ -33,7 +33,7 @@
     [self.titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.insets(UIEdgeInsetsZero);
     }];
-    NSLog(@"调用了layoutsubviews: %@", self);
+//    NSLog(@"调用了layoutsubviews: %@", self);
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

@@ -23,14 +23,17 @@ static NSString *reuseIdentifier = @"cell";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    [self.view addSubview:self.customView];
+    [self.view addSubview:self.customView];
     
-//    [self.customView mas_makeConstraints:^(MASConstraintMaker *make) {
-//        make.left.mas_equalTo(0);
-//        make.top.mas_equalTo(20);
-//        make.right.mas_equalTo(0);
-//        make.height.mas_equalTo(100);
-//    }];
+    [self.customView mas_remakeConstraints:^(MASConstraintMaker *make) {
+        make.left.mas_equalTo(0);
+        make.top.mas_equalTo(20);
+        make.right.mas_equalTo(0);
+        make.height.mas_equalTo(100);
+    }];
+    
+    return;
+    
     self.dataArray = [[NSMutableArray alloc] init];
     self.tableView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];
     self.tableView.dataSource = self;

@@ -34,6 +34,8 @@
 #import "TestCircleTableViewViewController.h"
 #import "TestNavigationBarViewController.h"
 #import "TestPanViewController.h"
+#import "CoreTextViewController.h"
+#import "EmojiViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -69,10 +71,12 @@
 //    TestLayoutSubviewsViewController *vc = [[TestLayoutSubviewsViewController alloc] init];
 //    TestScrollViewViewController *vc = [[TestScrollViewViewController alloc] init];
 //    TestCircleTableViewViewController *vc = [[TestCircleTableViewViewController alloc] init];
-    TestNavigationBarViewController *vc = [[TestNavigationBarViewController alloc] init];
-    UINavigationController *nvc = [[UINavigationController alloc] initWithRootViewController:vc];
+//    TestNavigationBarViewController *vc = [[TestNavigationBarViewController alloc] init];
+//    UINavigationController *nvc = [[UINavigationController alloc] initWithRootViewController:vc];
 //    TestPanViewController *vc = [[TestPanViewController alloc] init];
-    self.window.rootViewController = nvc;
+    CoreTextViewController *vc = [[CoreTextViewController alloc] init];
+//    EmojiViewController *vc = [[EmojiViewController alloc] init];
+    self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
     return YES;
 }
