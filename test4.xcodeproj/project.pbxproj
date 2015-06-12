@@ -33,6 +33,11 @@
 		284EA3751AE731CB00E4750F /* RunTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 284EA3741AE731CB00E4750F /* RunTimeViewController.m */; };
 		284EA3781AE73C2200E4750F /* UIViewController+Logging.m in Sources */ = {isa = PBXBuildFile; fileRef = 284EA3771AE73C2200E4750F /* UIViewController+Logging.m */; };
 		284EA37E1AE73D3100E4750F /* SwizzleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 284EA37D1AE73D3100E4750F /* SwizzleViewController.m */; };
+		285793FC1B2150010032937C /* TestProtocolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 285793FB1B2150010032937C /* TestProtocolViewController.m */; };
+		285793FF1B2150860032937C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 285793FE1B2150860032937C /* Person.m */; };
+		285794021B2150950032937C /* XiaoMing.m in Sources */ = {isa = PBXBuildFile; fileRef = 285794011B2150950032937C /* XiaoMing.m */; };
+		285794141B21DB400032937C /* PopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 285794131B21DB400032937C /* PopAnimation.m */; };
+		2857941D1B21DED40032937C /* CustomNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2857941C1B21DED40032937C /* CustomNavigationViewController.m */; };
 		285D12941A77343D005F1A60 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 285D12921A77343D005F1A60 /* 1.png */; };
 		285D12951A77343D005F1A60 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 285D12931A77343D005F1A60 /* 2.png */; };
 		285D12971A7756FD005F1A60 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 285D12961A7756FD005F1A60 /* 4.png */; };
@@ -45,6 +50,7 @@
 		286725DA1B20383300F6D3DB /* CubeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 286725D91B20383300F6D3DB /* CubeViewController.m */; };
 		286725DD1B20465600F6D3DB /* hotgirl1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 286725DB1B20465600F6D3DB /* hotgirl1.jpg */; };
 		286725DE1B20465600F6D3DB /* hotgirl2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 286725DC1B20465600F6D3DB /* hotgirl2.jpg */; };
+		286725E11B212BFB00F6D3DB /* BlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 286725E01B212BFB00F6D3DB /* BlockView.m */; };
 		287087F11A89F39800E04D33 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 287087F01A89F39800E04D33 /* AnimationViewController.m */; };
 		2883478A1B16A6400038F637 /* MyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 288347891B16A6400038F637 /* MyLabel.m */; };
 		2883478D1B16A6AC0038F637 /* CoreTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2883478C1B16A6AC0038F637 /* CoreTextViewController.m */; };
@@ -67,6 +73,7 @@
 		28B525FB1A8B4A02003485CE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B525FA1A8B4A02003485CE /* CFNetwork.framework */; };
 		28B525FD1A8B4A0B003485CE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B525FC1A8B4A0B003485CE /* QuartzCore.framework */; };
 		28B525FF1A8B4A15003485CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B525FE1A8B4A15003485CE /* CoreGraphics.framework */; };
+		28C4DA451B2968FA009A47B5 /* MasonryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C4DA441B2968FA009A47B5 /* MasonryTableViewCell.m */; };
 		28D0C98C1A7B2182003767DF /* TestImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D0C98B1A7B2182003767DF /* TestImagePickerViewController.m */; };
 		28E2BE9D1B0DBE69009A2A60 /* TestNavigationBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E2BE9C1B0DBE69009A2A60 /* TestNavigationBarViewController.m */; };
 		28E2BEA41B0EEE19009A2A60 /* TestNavi2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E2BEA31B0EEE19009A2A60 /* TestNavi2ViewController.m */; };
@@ -74,7 +81,6 @@
 		28E4B10D1A6A2B400015D0D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E4B10C1A6A2B400015D0D8 /* main.m */; };
 		28E4B1101A6A2B400015D0D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E4B10F1A6A2B400015D0D8 /* AppDelegate.m */; };
 		28E4B1131A6A2B400015D0D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E4B1121A6A2B400015D0D8 /* ViewController.m */; };
-		28E4B1181A6A2B400015D0D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28E4B1171A6A2B400015D0D8 /* Images.xcassets */; };
 		28E4B1271A6A2B400015D0D8 /* test4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E4B1261A6A2B400015D0D8 /* test4Tests.m */; };
 		28E4B1311A6A2E300015D0D8 /* a@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28E4B1301A6A2E300015D0D8 /* a@2x.png */; };
 		28E4B1351A6A32050015D0D8 /* Default-375w-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28E4B1341A6A32050015D0D8 /* Default-375w-667h@2x.png */; };
@@ -271,6 +277,16 @@
 		284EA3771AE73C2200E4750F /* UIViewController+Logging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Logging.m"; sourceTree = "<group>"; };
 		284EA37C1AE73D3100E4750F /* SwizzleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwizzleViewController.h; sourceTree = "<group>"; };
 		284EA37D1AE73D3100E4750F /* SwizzleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwizzleViewController.m; sourceTree = "<group>"; };
+		285793FA1B2150010032937C /* TestProtocolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestProtocolViewController.h; sourceTree = "<group>"; };
+		285793FB1B2150010032937C /* TestProtocolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestProtocolViewController.m; sourceTree = "<group>"; };
+		285793FD1B2150860032937C /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		285793FE1B2150860032937C /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		285794001B2150950032937C /* XiaoMing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiaoMing.h; sourceTree = "<group>"; };
+		285794011B2150950032937C /* XiaoMing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiaoMing.m; sourceTree = "<group>"; };
+		285794121B21DB3F0032937C /* PopAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopAnimation.h; sourceTree = "<group>"; };
+		285794131B21DB400032937C /* PopAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopAnimation.m; sourceTree = "<group>"; };
+		2857941B1B21DED40032937C /* CustomNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationViewController.h; sourceTree = "<group>"; };
+		2857941C1B21DED40032937C /* CustomNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationViewController.m; sourceTree = "<group>"; };
 		285D12921A77343D005F1A60 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		285D12931A77343D005F1A60 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		285D12961A7756FD005F1A60 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
@@ -289,6 +305,8 @@
 		286725D91B20383300F6D3DB /* CubeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CubeViewController.m; sourceTree = "<group>"; };
 		286725DB1B20465600F6D3DB /* hotgirl1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hotgirl1.jpg; sourceTree = "<group>"; };
 		286725DC1B20465600F6D3DB /* hotgirl2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hotgirl2.jpg; sourceTree = "<group>"; };
+		286725DF1B212BFB00F6D3DB /* BlockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockView.h; sourceTree = "<group>"; };
+		286725E01B212BFB00F6D3DB /* BlockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockView.m; sourceTree = "<group>"; };
 		287087EF1A89F39800E04D33 /* AnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
 		287087F01A89F39800E04D33 /* AnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
 		288347881B16A6400038F637 /* MyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLabel.h; sourceTree = "<group>"; };
@@ -328,6 +346,8 @@
 		28B525FA1A8B4A02003485CE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		28B525FC1A8B4A0B003485CE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		28B525FE1A8B4A15003485CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28C4DA431B2968FA009A47B5 /* MasonryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasonryTableViewCell.h; sourceTree = "<group>"; };
+		28C4DA441B2968FA009A47B5 /* MasonryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasonryTableViewCell.m; sourceTree = "<group>"; };
 		28D0C98A1A7B2182003767DF /* TestImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestImagePickerViewController.h; sourceTree = "<group>"; };
 		28D0C98B1A7B2182003767DF /* TestImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestImagePickerViewController.m; sourceTree = "<group>"; };
 		28E2BE9B1B0DBE69009A2A60 /* TestNavigationBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNavigationBarViewController.h; sourceTree = "<group>"; };
@@ -343,7 +363,6 @@
 		28E4B10F1A6A2B400015D0D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		28E4B1111A6A2B400015D0D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		28E4B1121A6A2B400015D0D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		28E4B1171A6A2B400015D0D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		28E4B1201A6A2B400015D0D8 /* test4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E4B1251A6A2B400015D0D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28E4B1261A6A2B400015D0D8 /* test4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test4Tests.m; sourceTree = "<group>"; };
@@ -619,11 +638,37 @@
 			name = "runtime例子";
 			sourceTree = "<group>";
 		};
+		285793F91B214FD40032937C /* protocol协议 */ = {
+			isa = PBXGroup;
+			children = (
+				285793FA1B2150010032937C /* TestProtocolViewController.h */,
+				285793FB1B2150010032937C /* TestProtocolViewController.m */,
+				285793FD1B2150860032937C /* Person.h */,
+				285793FE1B2150860032937C /* Person.m */,
+				285794001B2150950032937C /* XiaoMing.h */,
+				285794011B2150950032937C /* XiaoMing.m */,
+			);
+			name = "protocol协议";
+			sourceTree = "<group>";
+		};
+		285794111B21DA870032937C /* 自定义pop滑动手势 */ = {
+			isa = PBXGroup;
+			children = (
+				285794121B21DB3F0032937C /* PopAnimation.h */,
+				285794131B21DB400032937C /* PopAnimation.m */,
+				2857941B1B21DED40032937C /* CustomNavigationViewController.h */,
+				2857941C1B21DED40032937C /* CustomNavigationViewController.m */,
+			);
+			name = "自定义pop滑动手势";
+			sourceTree = "<group>";
+		};
 		286150681AA82C6700E502C8 /* Masonry例子 */ = {
 			isa = PBXGroup;
 			children = (
 				2861508A1AA830B100E502C8 /* MasonryViewController.h */,
 				2861508B1AA830B100E502C8 /* MasonryViewController.m */,
+				28C4DA431B2968FA009A47B5 /* MasonryTableViewCell.h */,
+				28C4DA441B2968FA009A47B5 /* MasonryTableViewCell.m */,
 			);
 			name = "Masonry例子";
 			sourceTree = "<group>";
@@ -717,6 +762,8 @@
 				28E2BE9C1B0DBE69009A2A60 /* TestNavigationBarViewController.m */,
 				28E2BEA21B0EEE19009A2A60 /* TestNavi2ViewController.h */,
 				28E2BEA31B0EEE19009A2A60 /* TestNavi2ViewController.m */,
+				286725DF1B212BFB00F6D3DB /* BlockView.h */,
+				286725E01B212BFB00F6D3DB /* BlockView.m */,
 			);
 			name = NavigationBar;
 			sourceTree = "<group>";
@@ -759,6 +806,8 @@
 		28E4B1091A6A2B400015D0D8 /* test4 */ = {
 			isa = PBXGroup;
 			children = (
+				285794111B21DA870032937C /* 自定义pop滑动手势 */,
+				285793F91B214FD40032937C /* protocol协议 */,
 				28E571D91B2004BB00E306B0 /* 3D变换 */,
 				288347871B16A48E0038F637 /* CoreText */,
 				28E2BEA51B0F23E6009A2A60 /* UIPanGesturer */,
@@ -798,7 +847,6 @@
 				286462BD1A6E559E0051A3AC /* ScreenShotViewController.m */,
 				28E4B1111A6A2B400015D0D8 /* ViewController.h */,
 				28E4B1121A6A2B400015D0D8 /* ViewController.m */,
-				28E4B1171A6A2B400015D0D8 /* Images.xcassets */,
 				28E4B10A1A6A2B400015D0D8 /* Supporting Files */,
 				2834574C1A8229AC00A05BC8 /* MyView.h */,
 				2834574D1A8229AC00A05BC8 /* MyView.m */,
@@ -1183,7 +1231,6 @@
 				28E571C71B1ED32800E306B0 /* emoji_66.png in Resources */,
 				28E571D21B1ED32800E306B0 /* Emoji.plist in Resources */,
 				28E571971B1ED32800E306B0 /* emoji_224.png in Resources */,
-				28E4B1181A6A2B400015D0D8 /* Images.xcassets in Resources */,
 				283457251A806F7700A05BC8 /* taobao.gif in Resources */,
 				28E571821B1ED32800E306B0 /* emoji_203.png in Resources */,
 				28E571941B1ED32800E306B0 /* emoji_221.png in Resources */,
@@ -1301,6 +1348,7 @@
 				284EA3751AE731CB00E4750F /* RunTimeViewController.m in Sources */,
 				28A774F21B0CB57D0068B399 /* CircleTableViewCell.m in Sources */,
 				28F2DF461B0B3B30002DD385 /* CustomModel.m in Sources */,
+				28C4DA451B2968FA009A47B5 /* MasonryTableViewCell.m in Sources */,
 				28E4B1131A6A2B400015D0D8 /* ViewController.m in Sources */,
 				28A774EF1B0CB42B0068B399 /* TestCircleTableViewViewController.m in Sources */,
 				2834574E1A8229AC00A05BC8 /* MyView.m in Sources */,
@@ -1309,15 +1357,18 @@
 				28EA23CD1AA58E4000FBC8DB /* AutoLayoutViewController.m in Sources */,
 				28E4B1101A6A2B400015D0D8 /* AppDelegate.m in Sources */,
 				283457521A830C7400A05BC8 /* CircleView.m in Sources */,
+				285794021B2150950032937C /* XiaoMing.m in Sources */,
 				2834573D1A80DD7D00A05BC8 /* ShowFilterImageViewController.m in Sources */,
 				284EA3671AE4D74D00E4750F /* SecondTransitionViewController.m in Sources */,
 				284EA3641AE4D74000E4750F /* RootTransitionViewController.m in Sources */,
 				28E571DC1B2004E700E306B0 /* Transform3DViewController.m in Sources */,
 				2834572E1A80811100A05BC8 /* MyTextView.m in Sources */,
 				283457591A85C0C800A05BC8 /* TestNetWorkViewController.m in Sources */,
+				285793FC1B2150010032937C /* TestProtocolViewController.m in Sources */,
 				280EF6E81A7889BE00EEA19A /* TestTableViewViewController.m in Sources */,
 				28F2DF281B0A0A4B002DD385 /* MyCustomView.m in Sources */,
 				2861508C1AA830B100E502C8 /* MasonryViewController.m in Sources */,
+				286725E11B212BFB00F6D3DB /* BlockView.m in Sources */,
 				2883478D1B16A6AC0038F637 /* CoreTextViewController.m in Sources */,
 				285D129A1A77584D005F1A60 /* UIScrollView+Circle.m in Sources */,
 				2834574B1A82006F00A05BC8 /* UIDynamicsViewController.m in Sources */,
@@ -1325,6 +1376,7 @@
 				28F2DF431B0B3943002DD385 /* TestLayoutsubViewsTableViewCell.m in Sources */,
 				283457551A830DFF00A05BC8 /* TestQuarzViewController.m in Sources */,
 				286725DA1B20383300F6D3DB /* CubeViewController.m in Sources */,
+				2857941D1B21DED40032937C /* CustomNavigationViewController.m in Sources */,
 				286462BE1A6E559E0051A3AC /* ScreenShotViewController.m in Sources */,
 				2834572B1A80757E00A05BC8 /* MyTextAttachment.m in Sources */,
 				28836AA31ADDF3DA009F59CE /* LabelAutoFitViewController.m in Sources */,
@@ -1332,6 +1384,7 @@
 				283457211A806C7A00A05BC8 /* TestKitViewController.m in Sources */,
 				28E2BEA41B0EEE19009A2A60 /* TestNavi2ViewController.m in Sources */,
 				28E571D81B1EF50600E306B0 /* CoreTextTools.m in Sources */,
+				285793FF1B2150860032937C /* Person.m in Sources */,
 				28E571D51B1EDAF200E306B0 /* MyEmojiLabel.m in Sources */,
 				28B24B071A8DFC5600472342 /* MyImageView.m in Sources */,
 				28A774F51B0D6AC70068B399 /* UIScrollView+TestCircle.m in Sources */,
@@ -1346,6 +1399,7 @@
 				28F2DF2B1B0A0B55002DD385 /* TestLayoutSubviewsViewController.m in Sources */,
 				280BA7A11A772CDE00CF0BCA /* TestScrollViewViewController.m in Sources */,
 				28E4B10D1A6A2B400015D0D8 /* main.m in Sources */,
+				285794141B21DB400032937C /* PopAnimation.m in Sources */,
 				28E2BEA81B0F23FB009A2A60 /* TestPanViewController.m in Sources */,
 				284EA3781AE73C2200E4750F /* UIViewController+Logging.m in Sources */,
 				28836A8D1ADCE1E1009F59CE /* MyTableViewViewController.m in Sources */,

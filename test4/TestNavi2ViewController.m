@@ -7,6 +7,7 @@
 //
 
 #import "TestNavi2ViewController.h"
+#import "BlockView.h"
 
 @interface TestNavi2ViewController ()
 
@@ -22,17 +23,18 @@
     /*
      *改变UINavigationBar之后, 依然可以滑动pop
      */
-    if ([self.navigationController  respondsToSelector:@selector(interactivePopGestureRecognizer)]) {
-        self.navigationController.interactivePopGestureRecognizer.delegate = nil;
-    }
-
+//    if ([self.navigationController  respondsToSelector:@selector(interactivePopGestureRecognizer)]) {
+//        self.navigationController.interactivePopGestureRecognizer.delegate = nil;
+//    }
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+- (void)dealloc {
+    NSLog(@"我释放了");
+}
 /*
 #pragma mark - Navigation
 

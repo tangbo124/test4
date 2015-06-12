@@ -8,8 +8,13 @@
 
 #import "MasonryViewController.h"
 #import "Masonry.h"
-@interface MasonryViewController ()
+#import "MasonryTableViewCell.h"
 
+static NSString * const masonryCell = @"masonryCell";
+
+@interface MasonryViewController ()
+@property(nonatomic, strong) UITableView *tableView;
+@property(nonatomic, strong) NSMutableArray *dataArray;
 @end
 
 @implementation MasonryViewController
@@ -24,25 +29,34 @@
 
 - (void)createUI
 {
-    view1 = [[UIView alloc] init];
-    view1.backgroundColor = [UIColor redColor];
-    [self.view addSubview:view1];
+    self.dataArray = [[NSMutableArray alloc] init];
     
-    view2 = [[UIView alloc] init];
-    view2.backgroundColor = [UIColor greenColor];
-    [self.view addSubview:view2];
-
-    [view1 mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.mas_equalTo(100);
-        make.top.mas_equalTo(100);
-        make.size.sizeOffset(CGSizeMake(100, 50));
+    for (int i = 0; i < 50; i ++) {
+        [self.dataArray addObject:[NSString stringWithFormat:@"%i", i]];
+    }
+    
+    self.tableView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];
+    self.tableView.dataSource = self;
+    self.tableView.delegate = self;
+    [self.view addSubview:self.tableView];
+    [self.tableView registerClass:[MasonryTableViewCell class] forCellReuseIdentifier:masonryCell];
+    
+    [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.mas_equalTo(0);
     }];
+}
 
-    [view2 mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.equalTo(view1.mas_trailing).offset(10);
-        make.top.equalTo(view1.mas_bottom).offset(10);
-        make.size.sizeOffset(CGSizeMake(100, 50));
-    }];
+#pragma - mark - UITableView 代理方法
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return [self.dataArray count];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    MasonryTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:masonryCell forIndexPath:indexPath];
+    [cell loadModel:self.dataArray[indexPath.row]];
+    return cell;
 }
 
 - (void)didReceiveMemoryWarning {

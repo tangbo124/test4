@@ -38,6 +38,9 @@
 #import "EmojiViewController.h"
 #import "Transform3DViewController.h"
 #import "CubeViewController.h"
+#import "TestProtocolViewController.h"
+#import "CustomNavigationViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -61,7 +64,7 @@
 //    TestNetWorkViewController *vc = [[TestNetWorkViewController alloc] init];
 //    AnimationViewController *vc = [[AnimationViewController alloc] init];
 //    AutoLayoutViewController *vc = [[AutoLayoutViewController alloc] init];
-//    MasonryViewController *vc = [[MasonryViewController alloc] init];
+    MasonryViewController *vc = [[MasonryViewController alloc] init];
 //    MyTableViewViewController *vc = [[MyTableViewViewController alloc] init];
 //    LabelAutoFitViewController *vc = [[LabelAutoFitViewController alloc] init];
 //    ToolBarViewController *vc = [[ToolBarViewController alloc] init];
@@ -74,12 +77,13 @@
 //    TestScrollViewViewController *vc = [[TestScrollViewViewController alloc] init];
 //    TestCircleTableViewViewController *vc = [[TestCircleTableViewViewController alloc] init];
 //    TestNavigationBarViewController *vc = [[TestNavigationBarViewController alloc] init];
-//    UINavigationController *nvc = [[UINavigationController alloc] initWithRootViewController:vc];
+//    CustomNavigationViewController *nvc = [[CustomNavigationViewController alloc] initWithRootViewController:vc];
 //    TestPanViewController *vc = [[TestPanViewController alloc] init];
 //    CoreTextViewController *vc = [[CoreTextViewController alloc] init];
 //    EmojiViewController *vc = [[EmojiViewController alloc] init];
-    Transform3DViewController *vc = [[Transform3DViewController alloc] init];
+//    Transform3DViewController *vc = [[Transform3DViewController alloc] init];
 //    CubeViewController *vc = [[CubeViewController alloc] init];
+//    TestProtocolViewController *vc = [[TestProtocolViewController alloc] init];
     self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
     return YES;

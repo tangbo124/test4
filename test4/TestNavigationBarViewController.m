@@ -33,19 +33,7 @@
         make.size.mas_equalTo(CGSizeMake(100, 50));
     }];
     
-    self.navigationController.navigationBarHidden = YES;
-    
-    return;
-    self.automaticallyAdjustsScrollViewInsets = NO;
-    UIView *redView = [UIView new];
-    redView.backgroundColor = [UIColor greenColor];
-    redView.frame = CGRectMake(0, 0, 375, 800);
-    
-    UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 100, 375, 100)];
-    scrollView.contentSize = CGSizeMake(375, 800);
-    scrollView.backgroundColor = [UIColor redColor];
-    [scrollView addSubview:redView];
-    [self.view addSubview:scrollView];
+//    self.navigationController.navigationBarHidden = YES;
 }
 
 - (void)btnClick:(id)sender {
