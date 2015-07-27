@@ -40,7 +40,9 @@
 #import "CubeViewController.h"
 #import "TestProtocolViewController.h"
 #import "CustomNavigationViewController.h"
-
+#import "KeyBoardViewController.h"
+#import "ActionShowViewController.h"
+#import "CAGradientLayerViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -64,7 +66,7 @@
 //    TestNetWorkViewController *vc = [[TestNetWorkViewController alloc] init];
 //    AnimationViewController *vc = [[AnimationViewController alloc] init];
 //    AutoLayoutViewController *vc = [[AutoLayoutViewController alloc] init];
-    MasonryViewController *vc = [[MasonryViewController alloc] init];
+//    MasonryViewController *vc = [[MasonryViewController alloc] init];
 //    MyTableViewViewController *vc = [[MyTableViewViewController alloc] init];
 //    LabelAutoFitViewController *vc = [[LabelAutoFitViewController alloc] init];
 //    ToolBarViewController *vc = [[ToolBarViewController alloc] init];
@@ -84,6 +86,9 @@
 //    Transform3DViewController *vc = [[Transform3DViewController alloc] init];
 //    CubeViewController *vc = [[CubeViewController alloc] init];
 //    TestProtocolViewController *vc = [[TestProtocolViewController alloc] init];
+//    KeyBoardViewController *vc = [[KeyBoardViewController alloc] init];
+//    ActionShowViewController *vc = [[ActionShowViewController alloc] init];
+    CAGradientLayerViewController *vc = [[CAGradientLayerViewController alloc] init];
     self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
     return YES;

@@ -13,7 +13,7 @@
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
 #ifdef DEBUG
-#define NSLog(format, ...) \
+#define TBLog(format, ...) \
     do { \
     NSLog(@"<%@ : %d : %s>-: %@", \
     [[NSString stringWithUTF8String:__FILE__] lastPathComponent], \
@@ -22,7 +22,7 @@
     [NSString stringWithFormat:format, ##__VA_ARGS__]); \
     } while(0)
 #else
-#define NSLog(format, ...) do{ } while(0)
+#define TBLog(format, ...) do{ } while(0)
 #endif
 #define MAS_SHORTHAND_GLOBALS
 #define MAS_SHORTHAND
