@@ -43,6 +43,7 @@
 #import "KeyBoardViewController.h"
 #import "ActionShowViewController.h"
 #import "CAGradientLayerViewController.h"
+#import "OffScreenViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -88,7 +89,8 @@
 //    TestProtocolViewController *vc = [[TestProtocolViewController alloc] init];
 //    KeyBoardViewController *vc = [[KeyBoardViewController alloc] init];
 //    ActionShowViewController *vc = [[ActionShowViewController alloc] init];
-    CAGradientLayerViewController *vc = [[CAGradientLayerViewController alloc] init];
+//    CAGradientLayerViewController *vc = [[CAGradientLayerViewController alloc] init];
+    OffScreenViewController *vc = [[OffScreenViewController alloc] init];
     self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
     return YES;

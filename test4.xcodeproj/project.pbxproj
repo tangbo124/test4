@@ -54,6 +54,8 @@
 		286725E11B212BFB00F6D3DB /* BlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 286725E01B212BFB00F6D3DB /* BlockView.m */; };
 		287087F11A89F39800E04D33 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 287087F01A89F39800E04D33 /* AnimationViewController.m */; };
 		287792911B65D574004FD990 /* CAGradientLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 287792901B65D574004FD990 /* CAGradientLayerViewController.m */; };
+		287792971B6729C9004FD990 /* MyCornerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 287792961B6729C9004FD990 /* MyCornerView.m */; };
+		2877929B1B672A01004FD990 /* OffScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2877929A1B672A01004FD990 /* OffScreenViewController.m */; };
 		287ABF8B1B33AC9A00AD21B5 /* KeyBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 287ABF8A1B33AC9A00AD21B5 /* KeyBoardViewController.m */; };
 		287ABF8D1B33B27300AD21B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 287ABF8C1B33B27300AD21B5 /* Images.xcassets */; };
 		2883478A1B16A6400038F637 /* MyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 288347891B16A6400038F637 /* MyLabel.m */; };
@@ -312,6 +314,10 @@
 		287087F01A89F39800E04D33 /* AnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
 		2877928F1B65D574004FD990 /* CAGradientLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAGradientLayerViewController.h; sourceTree = "<group>"; };
 		287792901B65D574004FD990 /* CAGradientLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAGradientLayerViewController.m; sourceTree = "<group>"; };
+		287792951B6729C9004FD990 /* MyCornerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCornerView.h; sourceTree = "<group>"; };
+		287792961B6729C9004FD990 /* MyCornerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCornerView.m; sourceTree = "<group>"; };
+		287792991B672A01004FD990 /* OffScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OffScreenViewController.h; sourceTree = "<group>"; };
+		2877929A1B672A01004FD990 /* OffScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffScreenViewController.m; sourceTree = "<group>"; };
 		287ABF891B33AC9A00AD21B5 /* KeyBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyBoardViewController.h; sourceTree = "<group>"; };
 		287ABF8A1B33AC9A00AD21B5 /* KeyBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyBoardViewController.m; sourceTree = "<group>"; };
 		287ABF8C1B33B27300AD21B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
@@ -700,6 +706,17 @@
 			name = "颜色渐变";
 			sourceTree = "<group>";
 		};
+		287792981B6729E5004FD990 /* 离屏渲染测试 */ = {
+			isa = PBXGroup;
+			children = (
+				287792991B672A01004FD990 /* OffScreenViewController.h */,
+				2877929A1B672A01004FD990 /* OffScreenViewController.m */,
+				287792951B6729C9004FD990 /* MyCornerView.h */,
+				287792961B6729C9004FD990 /* MyCornerView.m */,
+			);
+			name = "离屏渲染测试";
+			sourceTree = "<group>";
+		};
 		287ABF881B33AC8500AD21B5 /* 键盘 */ = {
 			isa = PBXGroup;
 			children = (
@@ -833,6 +850,7 @@
 		28E4B1091A6A2B400015D0D8 /* test4 */ = {
 			isa = PBXGroup;
 			children = (
+				287792981B6729E5004FD990 /* 离屏渲染测试 */,
 				2877928E1B65D511004FD990 /* 颜色渐变 */,
 				282E53D91B4A222D00800367 /* actionshow */,
 				287ABF8C1B33B27300AD21B5 /* Images.xcassets */,
@@ -1403,6 +1421,7 @@
 				2834572B1A80757E00A05BC8 /* MyTextAttachment.m in Sources */,
 				28836AA31ADDF3DA009F59CE /* LabelAutoFitViewController.m in Sources */,
 				28E2BE9D1B0DBE69009A2A60 /* TestNavigationBarViewController.m in Sources */,
+				2877929B1B672A01004FD990 /* OffScreenViewController.m in Sources */,
 				283457211A806C7A00A05BC8 /* TestKitViewController.m in Sources */,
 				28E2BEA41B0EEE19009A2A60 /* TestNavi2ViewController.m in Sources */,
 				282E53DC1B4A224100800367 /* ActionShowViewController.m in Sources */,
@@ -1411,6 +1430,7 @@
 				28E571D51B1EDAF200E306B0 /* MyEmojiLabel.m in Sources */,
 				28B24B071A8DFC5600472342 /* MyImageView.m in Sources */,
 				28A774F51B0D6AC70068B399 /* UIScrollView+TestCircle.m in Sources */,
+				287792971B6729C9004FD990 /* MyCornerView.m in Sources */,
 				2865572F1B1C2D9600A11C9C /* ClickLabel.m in Sources */,
 				28836A901ADCE247009F59CE /* ArrayDataSource.m in Sources */,
 				286462CE1A71F9DD0051A3AC /* ImageFilterViewController.m in Sources */,
