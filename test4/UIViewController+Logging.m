@@ -16,11 +16,15 @@
 
 + (void)load
 {
-    swizzleMethod([self class], @selector(viewDidAppear:), @selector(swizzled_viewDidAppear:));
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        swizzleMethod([self class], @selector(viewDidAppear:), @selector(swizzled_viewDidAppear:));
+    });
 }
 
 - (void)swizzled_viewDidAppear:(BOOL)animated
 {
+    NSLog(@"hahahah");
     // call original implementation
     [self swizzled_viewDidAppear:animated];
     // Logging

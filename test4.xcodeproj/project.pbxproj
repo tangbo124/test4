@@ -72,6 +72,8 @@
 		28A774EF1B0CB42B0068B399 /* TestCircleTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A774EE1B0CB42B0068B399 /* TestCircleTableViewViewController.m */; };
 		28A774F21B0CB57D0068B399 /* CircleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A774F11B0CB57D0068B399 /* CircleTableViewCell.m */; };
 		28A774F51B0D6AC70068B399 /* UIScrollView+TestCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A774F41B0D6AC70068B399 /* UIScrollView+TestCircle.m */; };
+		28ABDD4A1B6B505300143D76 /* A.m in Sources */ = {isa = PBXBuildFile; fileRef = 28ABDD491B6B505300143D76 /* A.m */; };
+		28ABDD4D1B6B519D00143D76 /* B.m in Sources */ = {isa = PBXBuildFile; fileRef = 28ABDD4C1B6B519D00143D76 /* B.m */; };
 		28B24B041A8DF04000472342 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B24B031A8DF04000472342 /* JavaScriptCore.framework */; };
 		28B24B071A8DFC5600472342 /* MyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B24B061A8DFC5600472342 /* MyImageView.m */; };
 		28B525F91A8B49F7003485CE /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B525F81A8B49F7003485CE /* libz.dylib */; };
@@ -349,6 +351,10 @@
 		28A774F11B0CB57D0068B399 /* CircleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleTableViewCell.m; sourceTree = "<group>"; };
 		28A774F31B0D6AC70068B399 /* UIScrollView+TestCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TestCircle.h"; sourceTree = "<group>"; };
 		28A774F41B0D6AC70068B399 /* UIScrollView+TestCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TestCircle.m"; sourceTree = "<group>"; };
+		28ABDD481B6B505300143D76 /* A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A.h; sourceTree = "<group>"; };
+		28ABDD491B6B505300143D76 /* A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A.m; sourceTree = "<group>"; };
+		28ABDD4B1B6B519D00143D76 /* B.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = B.h; sourceTree = "<group>"; };
+		28ABDD4C1B6B519D00143D76 /* B.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = B.m; sourceTree = "<group>"; };
 		28B24B031A8DF04000472342 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		28B24B051A8DFC5600472342 /* MyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyImageView.h; sourceTree = "<group>"; };
 		28B24B061A8DFC5600472342 /* MyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyImageView.m; sourceTree = "<group>"; };
@@ -649,6 +655,10 @@
 				284EA3771AE73C2200E4750F /* UIViewController+Logging.m */,
 				284EA37C1AE73D3100E4750F /* SwizzleViewController.h */,
 				284EA37D1AE73D3100E4750F /* SwizzleViewController.m */,
+				28ABDD481B6B505300143D76 /* A.h */,
+				28ABDD491B6B505300143D76 /* A.m */,
+				28ABDD4B1B6B519D00143D76 /* B.h */,
+				28ABDD4C1B6B519D00143D76 /* B.m */,
 			);
 			name = "runtime例子";
 			sourceTree = "<group>";
@@ -1443,6 +1453,8 @@
 				280BA7A11A772CDE00CF0BCA /* TestScrollViewViewController.m in Sources */,
 				28E4B10D1A6A2B400015D0D8 /* main.m in Sources */,
 				285794141B21DB400032937C /* PopAnimation.m in Sources */,
+				28ABDD4A1B6B505300143D76 /* A.m in Sources */,
+				28ABDD4D1B6B519D00143D76 /* B.m in Sources */,
 				28E2BEA81B0F23FB009A2A60 /* TestPanViewController.m in Sources */,
 				284EA3781AE73C2200E4750F /* UIViewController+Logging.m in Sources */,
 				28836A8D1ADCE1E1009F59CE /* MyTableViewViewController.m in Sources */,
