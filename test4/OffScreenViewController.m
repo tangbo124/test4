@@ -17,9 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
 //    self.view.backgroundColor = [UIColor redColor];
     MyCornerView *myView = [[MyCornerView alloc] initWithFrame:CGRectMake(10, 100, 100, 100)];
-    myView.backgroundColor = [UIColor redColor];
+    myView.backgroundColor = [UIColor yellowColor];
     [self.view addSubview:myView];
     
     CAShapeLayer *layper = [[CAShapeLayer alloc] init];
@@ -29,7 +30,6 @@
     //mask会导致离屏渲染, 影响性能
     myView.layer.mask = layper;
 }
-
 //- (UIImage *)clipImage:(UIImage *)image size:(CGSize)size {
 //    UIGraphicsBeginImageContextWithOptions(size, NO, [UIScreen mainScreen].scale);
 //    [image drawInRect:CGRectMake(0, 0, size.width, size.height)];

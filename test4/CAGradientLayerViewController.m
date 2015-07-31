@@ -42,6 +42,61 @@
     colorLayer.endPoint   = CGPointMake(1, 0);
 }
 
+- (void)justTest
+{
+    /*
+     UIImageView *imgView = [[UIImageView alloc] initWithFrame:CGRectMake(10, 100, 100, 100)];
+     imgView.image = [UIImage imageNamed:@"1"];
+     [self.view addSubview:imgView];
+     
+     CALayer *layer1 = [CALayer layer];
+     layer1.frame = CGRectMake(0, 0, 50, 100);
+     layer1.backgroundColor = [UIColor blackColor].CGColor;
+     
+     CALayer *layer2 = [CALayer layer];
+     layer2.frame = CGRectMake(50, 0, 50, 100);
+     layer2.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.5].CGColor;
+     
+     CALayer *layer = [CALayer layer];
+     layer.frame = CGRectMake(0, 0, 100, 100);
+     [layer addSublayer:layer1];
+     [layer1 addSublayer:layer2];
+     imgView.layer.mask = layer;
+     
+     CABasicAnimation *animation = [CABasicAnimation animation];
+     animation.keyPath = @"position.x";
+     animation.toValue = @100;
+     animation.duration = 3;
+     
+     //使留在最终状态，设置removedOnCompletion为No以防止它被自动移除
+     animation.fillMode = kCAFillModeForwards;
+     animation.removedOnCompletion = NO;
+     [layer1 addAnimation:animation forKey:@"basic"];
+     */
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(10, 100, 100, 100)];
+    [self.view addSubview:view];
+    
+    CAGradientLayer *glayer = [CAGradientLayer layer];
+    glayer.frame = view.bounds;
+    glayer.colors = @[(__bridge id)[UIColor redColor].CGColor,
+                      (__bridge id)[UIColor blueColor].CGColor,
+                      (__bridge id)[UIColor yellowColor].CGColor,
+                      (__bridge id)[UIColor orangeColor].CGColor,
+                      ];
+    glayer.locations = @[@(0.1), @(0.5), @(0.75)];
+    glayer.startPoint = CGPointMake(0, 0);
+    glayer.endPoint = CGPointMake(1, 1);
+    [view.layer addSublayer:glayer];
+    
+    CAShapeLayer *slayer = [CAShapeLayer layer];
+    UIBezierPath *path = [UIBezierPath bezierPathWithRect:UIEdgeInsetsInsetRect(view.bounds, UIEdgeInsetsMake(10, 10, 10, 10))];
+    slayer.path = path.CGPath;
+    slayer.strokeColor = [UIColor blackColor].CGColor;
+    slayer.lineWidth = 10.f;
+    slayer.fillColor = [UIColor clearColor].CGColor;
+    view.layer.mask = slayer;
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
