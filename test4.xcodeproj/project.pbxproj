@@ -34,6 +34,10 @@
 		284EA3751AE731CB00E4750F /* RunTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 284EA3741AE731CB00E4750F /* RunTimeViewController.m */; };
 		284EA3781AE73C2200E4750F /* UIViewController+Logging.m in Sources */ = {isa = PBXBuildFile; fileRef = 284EA3771AE73C2200E4750F /* UIViewController+Logging.m */; };
 		284EA37E1AE73D3100E4750F /* SwizzleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 284EA37D1AE73D3100E4750F /* SwizzleViewController.m */; };
+		2852DDA21B71F377009BBFA4 /* SimpleCollectionViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2852DDA11B71F377009BBFA4 /* SimpleCollectionViewViewController.m */; };
+		2852DDA51B71F59A009BBFA4 /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2852DDA41B71F59A009BBFA4 /* MyCollectionViewCell.m */; };
+		2852DDA91B71F996009BBFA4 /* MyCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2852DDA81B71F996009BBFA4 /* MyCollectionViewController.m */; };
+		2852DDAC1B722529009BBFA4 /* MyLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2852DDAB1B722529009BBFA4 /* MyLayout.m */; };
 		285793FC1B2150010032937C /* TestProtocolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 285793FB1B2150010032937C /* TestProtocolViewController.m */; };
 		285793FF1B2150860032937C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 285793FE1B2150860032937C /* Person.m */; };
 		285794021B2150950032937C /* XiaoMing.m in Sources */ = {isa = PBXBuildFile; fileRef = 285794011B2150950032937C /* XiaoMing.m */; };
@@ -282,6 +286,14 @@
 		284EA3771AE73C2200E4750F /* UIViewController+Logging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Logging.m"; sourceTree = "<group>"; };
 		284EA37C1AE73D3100E4750F /* SwizzleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwizzleViewController.h; sourceTree = "<group>"; };
 		284EA37D1AE73D3100E4750F /* SwizzleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwizzleViewController.m; sourceTree = "<group>"; };
+		2852DDA01B71F377009BBFA4 /* SimpleCollectionViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleCollectionViewViewController.h; sourceTree = "<group>"; };
+		2852DDA11B71F377009BBFA4 /* SimpleCollectionViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleCollectionViewViewController.m; sourceTree = "<group>"; };
+		2852DDA31B71F59A009BBFA4 /* MyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
+		2852DDA41B71F59A009BBFA4 /* MyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
+		2852DDA71B71F996009BBFA4 /* MyCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewController.h; sourceTree = "<group>"; };
+		2852DDA81B71F996009BBFA4 /* MyCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewController.m; sourceTree = "<group>"; };
+		2852DDAA1B722529009BBFA4 /* MyLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLayout.h; sourceTree = "<group>"; };
+		2852DDAB1B722529009BBFA4 /* MyLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLayout.m; sourceTree = "<group>"; };
 		285793FA1B2150010032937C /* TestProtocolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestProtocolViewController.h; sourceTree = "<group>"; };
 		285793FB1B2150010032937C /* TestProtocolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestProtocolViewController.m; sourceTree = "<group>"; };
 		285793FD1B2150860032937C /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
@@ -663,6 +675,28 @@
 			name = "runtime例子";
 			sourceTree = "<group>";
 		};
+		2852DD9F1B71F346009BBFA4 /* 简单UICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				2852DDA01B71F377009BBFA4 /* SimpleCollectionViewViewController.h */,
+				2852DDA11B71F377009BBFA4 /* SimpleCollectionViewViewController.m */,
+				2852DDA31B71F59A009BBFA4 /* MyCollectionViewCell.h */,
+				2852DDA41B71F59A009BBFA4 /* MyCollectionViewCell.m */,
+			);
+			name = "简单UICollectionView";
+			sourceTree = "<group>";
+		};
+		2852DDA61B71F962009BBFA4 /* 自定义UICollectionView布局 */ = {
+			isa = PBXGroup;
+			children = (
+				2852DDA71B71F996009BBFA4 /* MyCollectionViewController.h */,
+				2852DDA81B71F996009BBFA4 /* MyCollectionViewController.m */,
+				2852DDAA1B722529009BBFA4 /* MyLayout.h */,
+				2852DDAB1B722529009BBFA4 /* MyLayout.m */,
+			);
+			name = "自定义UICollectionView布局";
+			sourceTree = "<group>";
+		};
 		285793F91B214FD40032937C /* protocol协议 */ = {
 			isa = PBXGroup;
 			children = (
@@ -860,6 +894,8 @@
 		28E4B1091A6A2B400015D0D8 /* test4 */ = {
 			isa = PBXGroup;
 			children = (
+				2852DDA61B71F962009BBFA4 /* 自定义UICollectionView布局 */,
+				2852DD9F1B71F346009BBFA4 /* 简单UICollectionView */,
 				287792981B6729E5004FD990 /* 离屏渲染测试 */,
 				2877928E1B65D511004FD990 /* 颜色渐变 */,
 				282E53D91B4A222D00800367 /* actionshow */,
@@ -1399,6 +1435,7 @@
 				28F2DF461B0B3B30002DD385 /* CustomModel.m in Sources */,
 				28C4DA451B2968FA009A47B5 /* MasonryTableViewCell.m in Sources */,
 				28E4B1131A6A2B400015D0D8 /* ViewController.m in Sources */,
+				2852DDAC1B722529009BBFA4 /* MyLayout.m in Sources */,
 				28A774EF1B0CB42B0068B399 /* TestCircleTableViewViewController.m in Sources */,
 				2834574E1A8229AC00A05BC8 /* MyView.m in Sources */,
 				284EA36A1AE4DA5600E4750F /* RotationPresentAnimation.m in Sources */,
@@ -1434,9 +1471,11 @@
 				2877929B1B672A01004FD990 /* OffScreenViewController.m in Sources */,
 				283457211A806C7A00A05BC8 /* TestKitViewController.m in Sources */,
 				28E2BEA41B0EEE19009A2A60 /* TestNavi2ViewController.m in Sources */,
+				2852DDA51B71F59A009BBFA4 /* MyCollectionViewCell.m in Sources */,
 				282E53DC1B4A224100800367 /* ActionShowViewController.m in Sources */,
 				28E571D81B1EF50600E306B0 /* CoreTextTools.m in Sources */,
 				285793FF1B2150860032937C /* Person.m in Sources */,
+				2852DDA91B71F996009BBFA4 /* MyCollectionViewController.m in Sources */,
 				28E571D51B1EDAF200E306B0 /* MyEmojiLabel.m in Sources */,
 				28B24B071A8DFC5600472342 /* MyImageView.m in Sources */,
 				28A774F51B0D6AC70068B399 /* UIScrollView+TestCircle.m in Sources */,
@@ -1445,6 +1484,7 @@
 				28836A901ADCE247009F59CE /* ArrayDataSource.m in Sources */,
 				286462CE1A71F9DD0051A3AC /* ImageFilterViewController.m in Sources */,
 				28D0C98C1A7B2182003767DF /* TestImagePickerViewController.m in Sources */,
+				2852DDA21B71F377009BBFA4 /* SimpleCollectionViewViewController.m in Sources */,
 				283745E61A7B265100C1522A /* FirstViewController.m in Sources */,
 				289E23071AE897880059B615 /* ScrollViewWithAutoLayoutViewController.m in Sources */,
 				2834573A1A80D60700A05BC8 /* SecondFilterViewController.m in Sources */,

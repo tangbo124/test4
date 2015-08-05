@@ -44,6 +44,8 @@
 #import "ActionShowViewController.h"
 #import "CAGradientLayerViewController.h"
 #import "OffScreenViewController.h"
+#import "SimpleCollectionViewViewController.h"
+#import "MyCollectionViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -74,7 +76,7 @@
 //    ScrollViewWithAutoLayoutViewController *vc = [[ScrollViewWithAutoLayoutViewController alloc] init];
 //    RootTransitionViewController *vc = [[RootTransitionViewController alloc] init];
 //    RunTimeViewController *vc = [[RunTimeViewController alloc] init];
-    SwizzleViewController *vc = [[SwizzleViewController alloc] init];
+//    SwizzleViewController *vc = [[SwizzleViewController alloc] init];
 //    AWTViewController *vc = [[AWTViewController alloc] init];
 //    TestLayoutSubviewsViewController *vc = [[TestLayoutSubviewsViewController alloc] init];
 //    TestScrollViewViewController *vc = [[TestScrollViewViewController alloc] init];
@@ -91,6 +93,8 @@
 //    ActionShowViewController *vc = [[ActionShowViewController alloc] init];
 //    CAGradientLayerViewController *vc = [[CAGradientLayerViewController alloc] init];
 //    OffScreenViewController *vc = [[OffScreenViewController alloc] init];
+//    SimpleCollectionViewViewController *vc = [[SimpleCollectionViewViewController alloc] init];
+    MyCollectionViewController *vc = [[MyCollectionViewController alloc] init];
     self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
     return YES;
