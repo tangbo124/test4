@@ -79,7 +79,7 @@
 //    RootTransitionViewController *vc = [[RootTransitionViewController alloc] init];
 //    RunTimeViewController *vc = [[RunTimeViewController alloc] init];
 //    SwizzleViewController *vc = [[SwizzleViewController alloc] init];
-//    AWTViewController *vc = [[AWTViewController alloc] init];
+    AWTViewController *vc = [[AWTViewController alloc] init];
 //    TestLayoutSubviewsViewController *vc = [[TestLayoutSubviewsViewController alloc] init];
 //    TestScrollViewViewController *vc = [[TestScrollViewViewController alloc] init];
 //    TestCircleTableViewViewController *vc = [[TestCircleTableViewViewController alloc] init];
@@ -97,7 +97,7 @@
 //    OffScreenViewController *vc = [[OffScreenViewController alloc] init];
 //    SimpleCollectionViewViewController *vc = [[SimpleCollectionViewViewController alloc] init];
 //    HTTPSTestViewController *vc = [[HTTPSTestViewController alloc] init];
-    RuntimeModelViewController *vc = [[RuntimeModelViewController alloc] init];
+//    RuntimeModelViewController *vc = [[RuntimeModelViewController alloc] init];
     self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
     return YES;

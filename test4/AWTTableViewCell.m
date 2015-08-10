@@ -24,6 +24,8 @@
     self.nameLabel = [[UILabel alloc] init];
     self.nameLabel.translatesAutoresizingMaskIntoConstraints = NO;
     self.nameLabel.numberOfLines = 0;
+    //必须加preferredMaxLayoutWidth
+    self.nameLabel.preferredMaxLayoutWidth = [UIScreen mainScreen].bounds.size.width;
     self.nameLabel.backgroundColor = [UIColor redColor];
     [self.contentView addSubview:self.nameLabel];
     
@@ -31,6 +33,8 @@
     NSArray *constraint2 = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-[_nameLabel]-|" options:0 metrics:nil views:NSDictionaryOfVariableBindings(_nameLabel)];
     [self.contentView addConstraints:constraint1];
     [self.contentView addConstraints:constraint2];
+    
+//    [self.nameLabel setContentHuggingPriority:UILayoutPriorityRequired forAxis:UILayoutConstraintAxisVertical];
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

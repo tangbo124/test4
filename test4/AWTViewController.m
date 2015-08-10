@@ -33,7 +33,6 @@ static NSString * const identifier = @"cell";
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
     [self.tableView registerClass:[AWTTableViewCell class] forCellReuseIdentifier:identifier];
-//    self.tableView
     [self.view addSubview:self.tableView];
     
     NSArray *constranint1 = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-0-[_tableView]-0-|" options:0 metrics:nil views:NSDictionaryOfVariableBindings(_tableView)];
@@ -69,22 +68,7 @@ static NSString * const identifier = @"cell";
     return cell;
 }
 
-//- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
-//{
-//    NSString *str = self.dataArray[indexPath.row];
-//    _prototypeCell.nameLabel.text = str;
-//    
-//    CGSize size = [_prototypeCell.contentView systemLayoutSizeFittingSize:UILayoutFittingCompressedSize];
-////    NSLog(@"size : %@", NSStringFromCGSize(size));
-//    NSLog(@"");
-//    return size.height + 1;
-//}
-
-/*
- *当cell中的UILabel只设置了左右约束, 没有设置宽度时(H:|-0-[_nameLabel]-0-|),使
- *用estimatedHeightForRowAtIndexPath方法才可以返回正确的高度
- */
-- (CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NSString *str = self.dataArray[indexPath.row];
     _prototypeCell.nameLabel.text = str;
@@ -94,6 +78,21 @@ static NSString * const identifier = @"cell";
     return size.height + 1;
 }
 
+/*
+ *当cell中的UILabel只设置了左右约束, 没有设置宽度时(H:|-0-[_nameLabel]-0-|),使
+ *用estimatedHeightForRowAtIndexPath方法才可以返回正确的高度
+ */
+/*
+- (CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSString *str = self.dataArray[indexPath.row];
+    _prototypeCell.nameLabel.text = str;
+    
+    CGSize size = [_prototypeCell.contentView systemLayoutSizeFittingSize:UILayoutFittingCompressedSize];
+    NSLog(@"size : %@", NSStringFromCGSize(size));
+    return size.height + 1;
+}
+*/
 -(void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
