@@ -47,6 +47,7 @@
 #import "SimpleCollectionViewViewController.h"
 #import "MyCollectionViewController.h"
 #import "HTTPSTestViewController.h"
+#import "RuntimeModelViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -95,7 +96,8 @@
 //    CAGradientLayerViewController *vc = [[CAGradientLayerViewController alloc] init];
 //    OffScreenViewController *vc = [[OffScreenViewController alloc] init];
 //    SimpleCollectionViewViewController *vc = [[SimpleCollectionViewViewController alloc] init];
-    HTTPSTestViewController *vc = [[HTTPSTestViewController alloc] init];
+//    HTTPSTestViewController *vc = [[HTTPSTestViewController alloc] init];
+    RuntimeModelViewController *vc = [[RuntimeModelViewController alloc] init];
     self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
     return YES;

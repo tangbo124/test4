@@ -40,6 +40,8 @@
 		2852DDAC1B722529009BBFA4 /* MyLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2852DDAB1B722529009BBFA4 /* MyLayout.m */; };
 		2852DDBD1B745D92009BBFA4 /* HTTPSTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2852DDBC1B745D92009BBFA4 /* HTTPSTestViewController.m */; };
 		2852DDBF1B747B8D009BBFA4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2852DDBE1B747B8D009BBFA4 /* libPods.a */; };
+		2852DDCC1B749F72009BBFA4 /* RuntimeModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2852DDCB1B749F72009BBFA4 /* RuntimeModelViewController.m */; };
+		2852DDCF1B749F9B009BBFA4 /* PersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2852DDCE1B749F9B009BBFA4 /* PersonModel.m */; };
 		285793FC1B2150010032937C /* TestProtocolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 285793FB1B2150010032937C /* TestProtocolViewController.m */; };
 		285793FF1B2150860032937C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 285793FE1B2150860032937C /* Person.m */; };
 		285794021B2150950032937C /* XiaoMing.m in Sources */ = {isa = PBXBuildFile; fileRef = 285794011B2150950032937C /* XiaoMing.m */; };
@@ -299,6 +301,10 @@
 		2852DDBC1B745D92009BBFA4 /* HTTPSTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPSTestViewController.m; sourceTree = "<group>"; };
 		2852DDBE1B747B8D009BBFA4 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/../build/Release-iphoneos/libPods.a"; sourceTree = "<group>"; };
 		2852DDC01B747BB1009BBFA4 /* libPods-AFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-AFNetworking.a"; path = "Pods/../build/Release-iphoneos/libPods-AFNetworking.a"; sourceTree = "<group>"; };
+		2852DDCA1B749F72009BBFA4 /* RuntimeModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeModelViewController.h; sourceTree = "<group>"; };
+		2852DDCB1B749F72009BBFA4 /* RuntimeModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeModelViewController.m; sourceTree = "<group>"; };
+		2852DDCD1B749F9B009BBFA4 /* PersonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonModel.h; sourceTree = "<group>"; };
+		2852DDCE1B749F9B009BBFA4 /* PersonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonModel.m; sourceTree = "<group>"; };
 		285793FA1B2150010032937C /* TestProtocolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestProtocolViewController.h; sourceTree = "<group>"; };
 		285793FB1B2150010032937C /* TestProtocolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestProtocolViewController.m; sourceTree = "<group>"; };
 		285793FD1B2150860032937C /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
@@ -713,6 +719,17 @@
 			name = "HTTPS测试";
 			sourceTree = "<group>";
 		};
+		2852DDC91B749F52009BBFA4 /* runtime给Model赋值 */ = {
+			isa = PBXGroup;
+			children = (
+				2852DDCA1B749F72009BBFA4 /* RuntimeModelViewController.h */,
+				2852DDCB1B749F72009BBFA4 /* RuntimeModelViewController.m */,
+				2852DDCD1B749F9B009BBFA4 /* PersonModel.h */,
+				2852DDCE1B749F9B009BBFA4 /* PersonModel.m */,
+			);
+			name = "runtime给Model赋值";
+			sourceTree = "<group>";
+		};
 		285793F91B214FD40032937C /* protocol协议 */ = {
 			isa = PBXGroup;
 			children = (
@@ -910,6 +927,7 @@
 		28E4B1091A6A2B400015D0D8 /* test4 */ = {
 			isa = PBXGroup;
 			children = (
+				2852DDC91B749F52009BBFA4 /* runtime给Model赋值 */,
 				2852DDBA1B745D7C009BBFA4 /* HTTPS测试 */,
 				2852DDA61B71F962009BBFA4 /* 自定义UICollectionView布局 */,
 				2852DD9F1B71F346009BBFA4 /* 简单UICollectionView */,
@@ -1443,9 +1461,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2852DDCF1B749F9B009BBFA4 /* PersonModel.m in Sources */,
 				283457351A80CC7E00A05BC8 /* MyImageFilterViewController.m in Sources */,
 				284EA37E1AE73D3100E4750F /* SwizzleViewController.m in Sources */,
 				28836A931ADCE619009F59CE /* MyTableViewCell.m in Sources */,
+				2852DDCC1B749F72009BBFA4 /* RuntimeModelViewController.m in Sources */,
 				284EA35D1AE48F2200E4750F /* AWTTableViewCell.m in Sources */,
 				284EA3751AE731CB00E4750F /* RunTimeViewController.m in Sources */,
 				28A774F21B0CB57D0068B399 /* CircleTableViewCell.m in Sources */,
