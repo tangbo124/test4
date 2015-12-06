@@ -53,6 +53,7 @@
 #import "SuperViewViewController.h"
 #import "JustTestViewController.h"
 #import "NetworkImageViewController.h"
+#import "SliderBarTestViewController.h"
 
 @interface AppDelegate ()
 
@@ -105,7 +106,7 @@
 //    SimpleCollectionViewViewController *vc = [[SimpleCollectionViewViewController alloc] init];
 //    HTTPSTestViewController *vc = [[HTTPSTestViewController alloc] init];
 //    RuntimeModelViewController *vc = [[RuntimeModelViewController alloc] init];
-    
+
 //    FirstViewController *firstVC = [[FirstViewController alloc] init];
 //    CustomTabBarViewController *vc = [[CustomTabBarViewController alloc] init];
 //    vc.viewControllers = @[firstVC];
