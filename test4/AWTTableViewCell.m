@@ -7,6 +7,7 @@
 //
 
 #import "AWTTableViewCell.h"
+#import "Masonry.h"
 
 @implementation AWTTableViewCell
 
@@ -22,18 +23,23 @@
 - (void)createUI
 {
     self.nameLabel = [[UILabel alloc] init];
-    self.nameLabel.translatesAutoresizingMaskIntoConstraints = NO;
+//    self.nameLabel.translatesAutoresizingMaskIntoConstraints = NO;
     self.nameLabel.numberOfLines = 0;
     //必须加preferredMaxLayoutWidth
     self.nameLabel.preferredMaxLayoutWidth = [UIScreen mainScreen].bounds.size.width;
     self.nameLabel.backgroundColor = [UIColor redColor];
     [self.contentView addSubview:self.nameLabel];
     
-    NSArray *constraint1 = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-0-[_nameLabel]-0-|" options:0 metrics:nil views:NSDictionaryOfVariableBindings(_nameLabel)];
-    NSArray *constraint2 = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-[_nameLabel]-|" options:0 metrics:nil views:NSDictionaryOfVariableBindings(_nameLabel)];
-    [self.contentView addConstraints:constraint1];
-    [self.contentView addConstraints:constraint2];
-    
+//    NSArray *constraint1 = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-0-[_nameLabel]-0-|" options:0 metrics:nil views:NSDictionaryOfVariableBindings(_nameLabel)];
+//    NSArray *constraint2 = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-[_nameLabel]-|" options:0 metrics:nil views:NSDictionaryOfVariableBindings(_nameLabel)];
+//    [self.contentView addConstraints:constraint1];
+//    [self.contentView addConstraints:constraint2];
+    [self.nameLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.edges.mas_equalTo(UIEdgeInsetsMake(10, 10, 10, 10));
+        make.left.right.mas_equalTo(0);
+        make.top.mas_equalTo(10);
+        make.bottom.mas_equalTo(-10);
+    }];
 //    [self.nameLabel setContentHuggingPriority:UILayoutPriorityRequired forAxis:UILayoutConstraintAxisVertical];
 }
 

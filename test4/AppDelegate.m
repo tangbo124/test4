@@ -48,6 +48,12 @@
 #import "MyCollectionViewController.h"
 #import "HTTPSTestViewController.h"
 #import "RuntimeModelViewController.h"
+#import "CustomTabBarViewController.h"
+#import "FirstViewController.h"
+#import "SuperViewViewController.h"
+#import "JustTestViewController.h"
+#import "NetworkImageViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -67,6 +73,7 @@
 //    TestKitViewController *vc = [[TestKitViewController alloc] init];
 //    MyImageFilterViewController *vc = [[MyImageFilterViewController alloc] init];
 //    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:vc];
+//    navi.navigationBar.barTintColor = [UIColor redColor];
 //    UIDynamicsViewController *vc = [[UIDynamicsViewController alloc] init];
 //    TestNetWorkViewController *vc = [[TestNetWorkViewController alloc] init];
 //    AnimationViewController *vc = [[AnimationViewController alloc] init];
@@ -79,7 +86,7 @@
 //    RootTransitionViewController *vc = [[RootTransitionViewController alloc] init];
 //    RunTimeViewController *vc = [[RunTimeViewController alloc] init];
 //    SwizzleViewController *vc = [[SwizzleViewController alloc] init];
-    AWTViewController *vc = [[AWTViewController alloc] init];
+//    AWTViewController *vc = [[AWTViewController alloc] init];
 //    TestLayoutSubviewsViewController *vc = [[TestLayoutSubviewsViewController alloc] init];
 //    TestScrollViewViewController *vc = [[TestScrollViewViewController alloc] init];
 //    TestCircleTableViewViewController *vc = [[TestCircleTableViewViewController alloc] init];
@@ -98,6 +105,12 @@
 //    SimpleCollectionViewViewController *vc = [[SimpleCollectionViewViewController alloc] init];
 //    HTTPSTestViewController *vc = [[HTTPSTestViewController alloc] init];
 //    RuntimeModelViewController *vc = [[RuntimeModelViewController alloc] init];
+    
+//    FirstViewController *firstVC = [[FirstViewController alloc] init];
+//    CustomTabBarViewController *vc = [[CustomTabBarViewController alloc] init];
+//    vc.viewControllers = @[firstVC];
+    NetworkImageViewController *vc = [NetworkImageViewController new];
+//    JustTestViewController *vc = [JustTestViewController new];
     self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
     return YES;

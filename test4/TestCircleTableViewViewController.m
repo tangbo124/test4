@@ -18,23 +18,54 @@ static NSString *reuser = @"circleTableViewCell";
 @end
 
 @implementation TestCircleTableViewViewController
-
+{
+    CGRect tableBounds;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor grayColor];
-    
+    tableBounds = CGRectMake(0, 20, [UIScreen mainScreen].bounds.size.width, 200);
     _dataArray = @[@"1", @"2", @"1", @"2"];
 
-    _tableView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];
+    _tableView = [[UITableView alloc] initWithFrame:tableBounds style:UITableViewStylePlain];
     _tableView.dataSource = self;
     _tableView.delegate = self;
     _tableView.transform = CGAffineTransformMakeRotation(-M_PI / 2);
-
     [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:reuser];
     [self.view addSubview:_tableView];
     
     _tableView.pagingEnabled = YES;
     _tableView.backgroundColor = [UIColor redColor];
+    
+//    [_tableView mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.top.mas_equalTo(20);
+//        make.left.mas_equalTo(10);
+//        make.height.mas_equalTo(200);
+//        make.width.mas_equalTo(200);
+//    }];
+}
+
+- (void)viewDidLayoutSubviews
+{
+    [super viewDidLayoutSubviews];
+    if (UIDevice.currentDevice.systemVersion.floatValue >= 8.f)
+    {
+        // iOS 8 layout bug! Table's "height" taken from "width" after changing frame. But then if we cancel transform, set width/height to the final width/height, and rotate it and set to the virtual width/height - it works!
+        
+        CGRect rotatedFrame = tableBounds,
+        unrotatedFrame = rotatedFrame;
+        unrotatedFrame.size.width = rotatedFrame.size.height;
+        unrotatedFrame.size.height = rotatedFrame.size.width;
+        
+        _tableView.transform = CGAffineTransformIdentity;
+        _tableView.frame = unrotatedFrame;
+        _tableView.transform = CGAffineTransformMakeRotation(-M_PI / 2);
+        _tableView.frame = rotatedFrame;
+    }
+    else
+    {
+        _tableView.frame = tableBounds;
+    }
 }
 
 - (void)testScrollView {
@@ -42,9 +73,9 @@ static NSString *reuser = @"circleTableViewCell";
     [self.view addSubview:scrollView];
     
     [scrollView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.and.right.mas_equalTo(0);
-        make.top.mas_equalTo(20);
-        make.height.mas_equalTo(300);
+        make.left.top.mas_equalTo(20);
+        make.width.mas_equalTo(50);
+        make.height.mas_equalTo(100);
     }];
     
     _dataArray = @[@"1", @"2", @"1", @"2"];
@@ -78,13 +109,13 @@ static NSString *reuser = @"circleTableViewCell";
 //    NSString *imgUrl = _dataArray[indexPath.row];
 //    cell.imgView.image = [UIImage imageNamed:imgUrl];
     cell.textLabel.text = @"aaaaaaaaaaaaaaaaa";
-//    cell.transform = CGAffineTransformMakeRotation(M_PI/2);
+    cell.transform = CGAffineTransformMakeRotation(M_PI/2);
     return cell;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
 //    return self.view.bounds.size.width;
-    return 300;
+    return tableBounds.size.width;
 }
 
 - (void)didReceiveMemoryWarning {

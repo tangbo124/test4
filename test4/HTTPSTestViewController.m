@@ -65,7 +65,7 @@
     //        *.google.com
     //那么，除了导入*.google.com之外，还需要导入证书链上所有的CA证书（GeoTrust Global CA, Google Internet Authority G2）；
     //如是自建证书的时候，可以设置为YES，增强安全性；假如是信任的CA所签发的证书，则建议关闭该验证；
-    securityPolicy.validatesCertificateChain = NO;
+//    securityPolicy.validatesCertificateChain = NO;
     
     requestOperationManager.securityPolicy = securityPolicy;
 }

@@ -10,6 +10,9 @@
 		280BA7A11A772CDE00CF0BCA /* TestScrollViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 280BA7A01A772CDE00CF0BCA /* TestScrollViewViewController.m */; };
 		280EF6E81A7889BE00EEA19A /* TestTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 280EF6E71A7889BE00EEA19A /* TestTableViewViewController.m */; };
 		281262B31AAE9D5600411CD7 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281262B21AAE9D5600411CD7 /* WatchKit.framework */; };
+		281C774E1BA93202001C0B74 /* JustTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 281C774D1BA93202001C0B74 /* JustTestViewController.m */; };
+		282D784E1C14229F00427922 /* NetworkImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 282D784D1C14229F00427922 /* NetworkImageViewController.m */; };
+		282D78511C142BB800427922 /* UIImageView+RoundImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 282D78501C142BB800427922 /* UIImageView+RoundImage.m */; };
 		282E53DC1B4A224100800367 /* ActionShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 282E53DB1B4A224100800367 /* ActionShowViewController.m */; };
 		283457211A806C7A00A05BC8 /* TestKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 283457201A806C7A00A05BC8 /* TestKitViewController.m */; };
 		283457231A806D4800A05BC8 /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 283457221A806D4800A05BC8 /* test.html */; };
@@ -55,6 +58,7 @@
 		286462BE1A6E559E0051A3AC /* ScreenShotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 286462BD1A6E559E0051A3AC /* ScreenShotViewController.m */; };
 		286462CE1A71F9DD0051A3AC /* ImageFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 286462CD1A71F9DD0051A3AC /* ImageFilterViewController.m */; };
 		286462D01A71FE1F0051A3AC /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 286462CF1A71FE1F0051A3AC /* 3.png */; };
+		28651F941BA1C0B30060BEE0 /* SuperViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28651F931BA1C0B30060BEE0 /* SuperViewViewController.m */; };
 		2865572F1B1C2D9600A11C9C /* ClickLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2865572E1B1C2D9600A11C9C /* ClickLabel.m */; };
 		286725DA1B20383300F6D3DB /* CubeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 286725D91B20383300F6D3DB /* CubeViewController.m */; };
 		286725DD1B20465600F6D3DB /* hotgirl1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 286725DB1B20465600F6D3DB /* hotgirl1.jpg */; };
@@ -88,6 +92,7 @@
 		28B525FB1A8B4A02003485CE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B525FA1A8B4A02003485CE /* CFNetwork.framework */; };
 		28B525FD1A8B4A0B003485CE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B525FC1A8B4A0B003485CE /* QuartzCore.framework */; };
 		28B525FF1A8B4A15003485CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B525FE1A8B4A15003485CE /* CoreGraphics.framework */; };
+		28B61FD51B8BFDEA00DE3EB2 /* CustomTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B61FD41B8BFDEA00DE3EB2 /* CustomTabBarViewController.m */; };
 		28C4DA451B2968FA009A47B5 /* MasonryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C4DA441B2968FA009A47B5 /* MasonryTableViewCell.m */; };
 		28D0C98C1A7B2182003767DF /* TestImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D0C98B1A7B2182003767DF /* TestImagePickerViewController.m */; };
 		28E2BE9D1B0DBE69009A2A60 /* TestNavigationBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E2BE9C1B0DBE69009A2A60 /* TestNavigationBarViewController.m */; };
@@ -244,6 +249,12 @@
 		280EF6E61A7889BE00EEA19A /* TestTableViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewViewController.h; sourceTree = "<group>"; };
 		280EF6E71A7889BE00EEA19A /* TestTableViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewViewController.m; sourceTree = "<group>"; };
 		281262B21AAE9D5600411CD7 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
+		281C774C1BA93202001C0B74 /* JustTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JustTestViewController.h; sourceTree = "<group>"; };
+		281C774D1BA93202001C0B74 /* JustTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JustTestViewController.m; sourceTree = "<group>"; };
+		282D784C1C14229F00427922 /* NetworkImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkImageViewController.h; sourceTree = "<group>"; };
+		282D784D1C14229F00427922 /* NetworkImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkImageViewController.m; sourceTree = "<group>"; };
+		282D784F1C142BB800427922 /* UIImageView+RoundImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+RoundImage.h"; sourceTree = "<group>"; };
+		282D78501C142BB800427922 /* UIImageView+RoundImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+RoundImage.m"; sourceTree = "<group>"; };
 		282E53DA1B4A224100800367 /* ActionShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionShowViewController.h; sourceTree = "<group>"; };
 		282E53DB1B4A224100800367 /* ActionShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionShowViewController.m; sourceTree = "<group>"; };
 		2834571F1A806C7A00A05BC8 /* TestKitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestKitViewController.h; sourceTree = "<group>"; };
@@ -327,6 +338,8 @@
 		286462CC1A71F9DD0051A3AC /* ImageFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageFilterViewController.h; sourceTree = "<group>"; };
 		286462CD1A71F9DD0051A3AC /* ImageFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageFilterViewController.m; sourceTree = "<group>"; };
 		286462CF1A71FE1F0051A3AC /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		28651F921BA1C0B30060BEE0 /* SuperViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperViewViewController.h; sourceTree = "<group>"; };
+		28651F931BA1C0B30060BEE0 /* SuperViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperViewViewController.m; sourceTree = "<group>"; };
 		2865572D1B1C2D9600A11C9C /* ClickLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClickLabel.h; sourceTree = "<group>"; };
 		2865572E1B1C2D9600A11C9C /* ClickLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClickLabel.m; sourceTree = "<group>"; };
 		286725D81B20383300F6D3DB /* CubeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CubeViewController.h; sourceTree = "<group>"; };
@@ -385,6 +398,8 @@
 		28B525FA1A8B4A02003485CE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		28B525FC1A8B4A0B003485CE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		28B525FE1A8B4A15003485CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28B61FD31B8BFDEA00DE3EB2 /* CustomTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarViewController.h; sourceTree = "<group>"; };
+		28B61FD41B8BFDEA00DE3EB2 /* CustomTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarViewController.m; sourceTree = "<group>"; };
 		28C4DA431B2968FA009A47B5 /* MasonryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasonryTableViewCell.h; sourceTree = "<group>"; };
 		28C4DA441B2968FA009A47B5 /* MasonryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasonryTableViewCell.m; sourceTree = "<group>"; };
 		28D0C98A1A7B2182003767DF /* TestImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestImagePickerViewController.h; sourceTree = "<group>"; };
@@ -581,6 +596,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		282D784B1C14226600427922 /* 网络下载图片并切割成圆形 */ = {
+			isa = PBXGroup;
+			children = (
+				282D784C1C14229F00427922 /* NetworkImageViewController.h */,
+				282D784D1C14229F00427922 /* NetworkImageViewController.m */,
+				282D784F1C142BB800427922 /* UIImageView+RoundImage.h */,
+				282D78501C142BB800427922 /* UIImageView+RoundImage.m */,
+			);
+			name = "网络下载图片并切割成圆形";
+			sourceTree = "<group>";
+		};
 		282E53D91B4A222D00800367 /* actionshow */ = {
 			isa = PBXGroup;
 			children = (
@@ -765,6 +791,15 @@
 			name = "Masonry例子";
 			sourceTree = "<group>";
 		};
+		28651F911BA1C0820060BEE0 /* 父视图宽高随内容变化 */ = {
+			isa = PBXGroup;
+			children = (
+				28651F921BA1C0B30060BEE0 /* SuperViewViewController.h */,
+				28651F931BA1C0B30060BEE0 /* SuperViewViewController.m */,
+			);
+			name = "父视图宽高随内容变化";
+			sourceTree = "<group>";
+		};
 		287087EE1A89F35200E04D33 /* CALayer动画 */ = {
 			isa = PBXGroup;
 			children = (
@@ -876,6 +911,15 @@
 			name = "循环滚动TableView";
 			sourceTree = "<group>";
 		};
+		28B61FD21B8BFDB400DE3EB2 /* 自定义tabBar */ = {
+			isa = PBXGroup;
+			children = (
+				28B61FD31B8BFDEA00DE3EB2 /* CustomTabBarViewController.h */,
+				28B61FD41B8BFDEA00DE3EB2 /* CustomTabBarViewController.m */,
+			);
+			name = "自定义tabBar";
+			sourceTree = "<group>";
+		};
 		28E2BE9A1B0DBE48009A2A60 /* NavigationBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -927,6 +971,9 @@
 		28E4B1091A6A2B400015D0D8 /* test4 */ = {
 			isa = PBXGroup;
 			children = (
+				282D784B1C14226600427922 /* 网络下载图片并切割成圆形 */,
+				28651F911BA1C0820060BEE0 /* 父视图宽高随内容变化 */,
+				28B61FD21B8BFDB400DE3EB2 /* 自定义tabBar */,
 				2852DDC91B749F52009BBFA4 /* runtime给Model赋值 */,
 				2852DDBA1B745D7C009BBFA4 /* HTTPS测试 */,
 				2852DDA61B71F962009BBFA4 /* 自定义UICollectionView布局 */,
@@ -980,6 +1027,8 @@
 				28E4B10A1A6A2B400015D0D8 /* Supporting Files */,
 				2834574C1A8229AC00A05BC8 /* MyView.h */,
 				2834574D1A8229AC00A05BC8 /* MyView.m */,
+				281C774C1BA93202001C0B74 /* JustTestViewController.h */,
+				281C774D1BA93202001C0B74 /* JustTestViewController.m */,
 			);
 			path = test4;
 			sourceTree = "<group>";
@@ -1461,6 +1510,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				281C774E1BA93202001C0B74 /* JustTestViewController.m in Sources */,
 				2852DDCF1B749F9B009BBFA4 /* PersonModel.m in Sources */,
 				283457351A80CC7E00A05BC8 /* MyImageFilterViewController.m in Sources */,
 				284EA37E1AE73D3100E4750F /* SwizzleViewController.m in Sources */,
@@ -1481,6 +1531,7 @@
 				28E4B1101A6A2B400015D0D8 /* AppDelegate.m in Sources */,
 				283457521A830C7400A05BC8 /* CircleView.m in Sources */,
 				285794021B2150950032937C /* XiaoMing.m in Sources */,
+				282D78511C142BB800427922 /* UIImageView+RoundImage.m in Sources */,
 				2834573D1A80DD7D00A05BC8 /* ShowFilterImageViewController.m in Sources */,
 				284EA3671AE4D74D00E4750F /* SecondTransitionViewController.m in Sources */,
 				284EA3641AE4D74000E4750F /* RootTransitionViewController.m in Sources */,
@@ -1504,7 +1555,10 @@
 				286462BE1A6E559E0051A3AC /* ScreenShotViewController.m in Sources */,
 				2834572B1A80757E00A05BC8 /* MyTextAttachment.m in Sources */,
 				28836AA31ADDF3DA009F59CE /* LabelAutoFitViewController.m in Sources */,
+				28651F941BA1C0B30060BEE0 /* SuperViewViewController.m in Sources */,
+				28B61FD51B8BFDEA00DE3EB2 /* CustomTabBarViewController.m in Sources */,
 				28E2BE9D1B0DBE69009A2A60 /* TestNavigationBarViewController.m in Sources */,
+				282D784E1C14229F00427922 /* NetworkImageViewController.m in Sources */,
 				2877929B1B672A01004FD990 /* OffScreenViewController.m in Sources */,
 				283457211A806C7A00A05BC8 /* TestKitViewController.m in Sources */,
 				28E2BEA41B0EEE19009A2A60 /* TestNavi2ViewController.m in Sources */,
